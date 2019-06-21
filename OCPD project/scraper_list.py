@@ -82,3 +82,41 @@ with open('hrefs_ocpd_article.pickle','rb')as fp:
 
 #%%
 hrefslinks
+
+
+
+#%%
+dic_links = {}
+for link in hrefslinks:
+    dic_links[link]='no'
+#dic_links
+
+#%%
+def download_list_articles(links = hrefslinks):
+    count=0
+    for link in dic_links.keys():
+        if(dic_links[link]=='no'):
+            count+=1
+            print(count)
+            r = requests.get(link,timeout=4)
+            time.sleep(0.5+random.random())
+            if(r.status_code==requests.codes.ok and len(r.text)>500):
+                dic_links[link]='done'
+                name = link.replace("/","")
+                with open('copd/article/'+ name+'.html','w+',encoding='utf-8') as fp:
+                    fp.write(r.text)
+download_list_articles()
+
+#%%
+dic_links
+
+#%%
+with open('article_name_dic.pickle','wb+')as fp:
+    pickle.dump(dic_links,fp)
+
+#%%
+with open('article_name_dic.pickle','rb')as fp:
+    dic_links = pickle.load(fp)
+
+#%%
+dic_names
