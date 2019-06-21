@@ -1,5 +1,5 @@
 #%%
-import random, time, pickle, requests, os
+import random, time, pickle, requests, os, os.path
 
 #%% [markdown]
 ## build of the url
@@ -30,3 +30,55 @@ def download_list_articles(category = 'copd'):
             print('stop at page '+str(page))
             break
 download_list_articles()
+#%%
+from bs4 import BeautifulSoup
+
+
+#%% [markdown]
+## find read more links
+page = 2
+category = 'copd'
+html = str(category) +'/lungnewslist'+ str(page)+'.html'
+with open(html) as fp:
+    soup = BeautifulSoup(fp)
+#print(soup.text)
+for readmorebox in soup.find_all("a",class_="readmore-link"):
+    print(readmorebox.attrs['href'])
+
+#%%
+def find_href_in_page(page=1,category='copd'):
+    html = str(category) +'/lungnewslist'+ str(page)+'.html'
+    with open(html) as fp:
+        soup = BeautifulSoup(fp)
+    #print(soup.text)
+    hrefs = []
+    for readmorebox in soup.find_all("a",class_="readmore-link"):
+        hrefs.append(readmorebox.attrs['href'])
+    return(hrefs)
+#find_href_in_page()
+#%%
+def find_article_links(category='copd'):
+    DIR = '/home/pier/Documents/P19/data science literacy/OCPD project/' + category
+    #print(len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))]))
+    count_html=len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
+    hrefs = []
+    for page in range(1,count_html+1):
+        links=find_href_in_page(page=page,category=category)
+        #print("for "+str(page)+' we have '+str(len(links)))
+        #print(links)
+        hrefs+=links
+    return hrefs
+
+print(len(find_article_links()))
+#%%
+hrefs = find_article_links()
+#print(hrefs)
+with open('hrefs_ocpd_article.pickle','wb+')as fp:
+    pickle.dump(hrefs,fp)
+
+#%%
+with open('hrefs_ocpd_article.pickle','rb')as fp:
+    hrefslinks = pickle.load(fp)
+
+#%%
+hrefslinks
