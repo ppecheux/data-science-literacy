@@ -63,44 +63,23 @@ def spacy_tokenizer(sentence):
 #print(spacy_tokenizer(get_txt_article()))
 
 #%%
-#DO NOT WORK
-from numpy import dot
-from numpy.linalg import norm
-import scipy
-
-# you can access known words from the parser's vocabulary
-mytokens = spacy_tokenizer(get_txt_article())
-nasa = parser.vocab['copd']
-
-
-# cosine similarity
-cosine = lambda v1, v2: dot(v1, v2) / (norm(v1) * norm(v2))
-
-# gather all known words, take only the lowercased versions
-allWords = list({w for w in parser.vocab if w.has_vector and w.orth_.islower() and w.lower_ != "copd"})
-print(len(allWords))
-# sort by similarity to NASA
-allWords.sort(key=lambda w: cosine(w.vector, nasa.vector))
-allWords.reverse()
-print("Top 10 most similar words to copd:")
-for word in allWords[:10]:   
-    print(word.orth_)
+#Create a list of tockenised sentences of all articles
+def sentences_all_articles(dic_links= dic_links):
+    pf_sentences = []
+    for link in dic_links.keys():
+        pf_sentences += get_txt_article(link).split('.')
+    #print(pf_sentences)
+    sentences = [spacy_tokenizer(sentence) for sentence in pf_sentences]
+    return sentences
+sentences = sentences_all_articles()
+print(sentences)
+#%%
+#Save allarticle sentences
+with open('sentences_all_article.pickle','wb+')as fp:
+    pickle.dump(sentences,fp)
 
 #%%
-#
-#bow_vector = CountVectorizer(tokenizer = spacy_tokenizer, ngram_range=(1,1))
-
-#%%
-def cosine_distance_wordembedding_method(s1, s2):
-    vector_1 = np.mean([word.has_vector for word in s1],axis=0)
-    vector_2 = np.mean([word.has_wector for word in s2],axis=0)
-    cosine = scipy.spatial.distance.cosine(vector_1, vector_2)
-    print('Word Embedding method with a cosine distance asses that our two sentences are similar to',round((1-cosine)*100,2),'%')
-#tockens= spacy_tokenizer(get_txt_article())
-#cosine_distance_wordembedding_method(tockens[:10],tockens[11:20])
-
-#%%
-
+#Gives the vector of a word based on the nlp model that we choosed
 doc = nlp(get_txt_article())
 for tocken in doc[10:12]:
     print(tocken.vector)
@@ -110,10 +89,15 @@ for tocken in doc[10:12]:
 from gensim.models import word2vec
 
 #%%
-#sentences = word2vec.Text8Corpus('text8')
 sentences = [spacy_tokenizer(sentence) for sentence in get_txt_article().split('.')]
-#%%
 
+#%%
+with open('sentences_all_article.pickle','rb')as fp:
+    sentences = pickle.load(fp)
+print(sentences)
+
+#%%
+# gives the most similar words from copd
 model = word2vec.Word2Vec(sentences, size=200)
 print(sentences)
 print(model.wv.vocab )
