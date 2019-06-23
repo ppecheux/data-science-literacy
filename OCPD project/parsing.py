@@ -156,5 +156,18 @@ model.most_similar(['lung'])
 #Search for the age of the people interested
 with open('list_sentences_comments.pickle','rb')as fp:
     com_sentences = pickle.load(fp)
+import re
 #%%
-print(''.join(com_sentences))
+regex = r"\d{2}[[:blank:]][y]"
+test_str = ''.join(com_sentences)
+print(test_str)
+matches = re.finditer(regex, test_str, re.MULTILINE)
+#print(matches)
+for matchNum, match in enumerate(matches, start=1):
+    print('i')
+    print ("Match {matchNum} was found at {start}-{end}: {match}".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))
+    
+    for groupNum in range(0, len(match.groups())):
+        groupNum = groupNum + 1
+        
+        print ("Group {groupNum} found at {start}-{end}: {group}".format(groupNum = groupNum, start = match.start(groupNum), end = match.end(groupNum), group = match.group(groupNum)))
