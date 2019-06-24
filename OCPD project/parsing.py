@@ -139,7 +139,7 @@ model.most_similar(['copd'])
 
 with open('sentences_all_comments.pickle','rb')as fp:
     com_sentences = pickle.load(fp)
-print(com_sentences)
+#print(com_sentences)
 
 #%%
 # gives the most similar words from copd
