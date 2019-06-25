@@ -6,7 +6,7 @@ with open('article_name_dic.pickle','rb')as fp:
     dic_links = pickle.load(fp)
 
 #%%
-#link = next(iter(dic_links))
+
 def get_txt_article(link='https://lungdiseasenews.com/2015/08/18/boehringer-ingelheims-spiolto-respimat-improves-quality-life-copd-patients/'):
     name = link.replace("/","")
     html = 'copd/article/'+ name+'.html'
@@ -32,7 +32,7 @@ def get_list_comments(link='https://lungdiseasenews.com/2017/09/15/lung-disease-
     except:
         return []
     #print(comment_list)
-get_list_comments()
+#get_list_comments()
 
 
 #%%
@@ -41,8 +41,10 @@ import numpy as np
 from spacy.lang.en.stop_words import STOP_WORDS
 import en_core_web_sm
 from spacy.lang.en import English
-from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
+
+#from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 nlp = en_core_web_sm.load()
+#nlp.max_length = 2000000
 parser = English()
 
 #%%
@@ -52,34 +54,79 @@ def spacy_tokenizer(sentence):
     mytokens = parser(sentence)
 
     # Lemmatizing each token and converting each token into lowercase
-    mytokens = [ word.lemma_.lower().strip() if word.lemma_ != "-PRON-" else word.lower_ for word in mytokens ]
-    custom_stop_words = ['®']
+    # We also remove numbers
+    mytokens = [ word.lemma_.lower().strip() if word.lemma_ != "-PRON-" else word.lower_ for word in mytokens if word.lemma_ != "-NUM-"]
+
+    custom_stop_words = ['®','“','”','’','']
     # Removing stop words and ponctuation
-    mytokens = [ word for word in mytokens if word not in STOP_WORDS and word not in custom_stop_words and word not in string.punctuation ]
+    mytokens = [ word for word in mytokens if word not in STOP_WORDS and word not in custom_stop_words and word not in string.punctuation and len(word)>0]
 
     # return preprocessed list of tokens
     return mytokens
 
 #print(spacy_tokenizer(get_txt_article()))
-
 #%%
 #Create a list of tockenised sentences of all articles
-def sentences_all_articles(dic_links= dic_links):
-    pf_sentences = []
+def get_text_all_articles(dic_links= dic_links):
+    pf_sentences_list = []
     for link in dic_links.keys():
-        pf_sentences += get_txt_article(link).split('.')
-    #print(pf_sentences)
+        #print(link)
+        #print(get_txt_article(link))
+        pf_sentences_list.append(get_txt_article(link))
+        
+    return(pf_sentences_list)
+pf_sentences_list=get_text_all_articles()
+#%%
+print(len(pf_sentences_list))
+
+#%%
+def doc_to_string(doc=['Devices that remotely monitor COPD patients’ conditions could help improve their outcomes, a study suggests.','\nA Cedars-Sinai Medical CenterÂ\xa0team said there were signs in the previous research it analyzed that remote monitoring could help COPD patients, although the evidence was far from definitive.\nIn addition, their analysis of 27 clinical trial results failed to provide enough evidence that the devices can improve the outcomes of patients with other conditions. Four of the trials the Los Angeles researchers looked at were for COPD.\nTheir report,Â\xa0â\x80\x9cImpact of remote patient monitoring on clinical outcomes: an updated meta-analysis of randomized controlled trials,Â\xa0appeared in the journal npj Digital Medicine.']):
+    sentences = []
+    count = 0
+    for article in doc:
+        print(count)
+        count +=1
+        tocken = nlp(article)
+        sentences += [sent.string.strip() for sent in tocken.sents]
+        
+    return sentences
+#print(len(doc_to_string()))
+#%%
+#Create a list of tockenised sentences of all articles
+def sentences_all_articles(text_list = pf_sentences_list):
+
+    # #because the string contains too much char, The string will be cut in two half
+    # pf_sentences_r_list  = pf_sentences_list[:len(pf_sentences_list)//2]
+    # pf_sentences_l_list  = pf_sentences_list[len(pf_sentences_list)//2:]
+    # print("right side of the list countains: "+ str(len(pf_sentences_r_list))+" elements")
+    # print(pf_sentences_r_list)
+    
+    # pf_sentences_r = ''.join(pf_sentences_r_list)
+    # return
+    # tocken_r = nlp(pf_sentences_r)
+    # pf_sentences = [sent.string.strip() for sent in tocken_r.sents]
+    # print("right side of the list countains: "+ str(len(pf_sentences)))
+    # pf_sentences_l = ''.join(pf_sentences_l_list)    
+    # tocken_l = nlp(pf_sentences_l)
+    # pf_sentences_l = [sent.string.strip() for sent in tocken_l.sents]
+    # print("left side of the list countains: "+ str(len(pf_sentences)))
+
+    # pf_sentences = pf_sentences_l + pf_sentences_r
+    pf_sentences = doc_to_string(doc = text_list)
+
     sentences = [spacy_tokenizer(sentence) for sentence in pf_sentences]
     return sentences
 sentences = sentences_all_articles()
-print(sentences)
+print(len(sentences))
+#%%
+print(sentences[:10])
 #%%
 #Save allarticle sentences
 with open('sentences_all_article.pickle','wb+')as fp:
     pickle.dump(sentences,fp)
 
+
 #%%
-#Create a list of tockenised sentences of comments
 def comments_all_articles(dic_links=dic_links):
     all_comments = []
     joined_com = ''
@@ -88,11 +135,12 @@ def comments_all_articles(dic_links=dic_links):
         #print(comments)
         joined_com = joined_com.join(comments)
         #print(joined_com)
-        tocken = nlp(joined_com)
-        comments = [sent.string.strip() for sent in tocken.sents]
-        all_comments += comments
-        #print(comments)
-        
+        break
+    tocken = nlp(joined_com)
+    comments = [sent.string.strip() for sent in tocken.sents]
+    all_comments += comments
+    print(comments)
+    
     #print(comments)
     commment_sentences = [spacy_tokenizer(sentence) for sentence in comments]
     return all_comments

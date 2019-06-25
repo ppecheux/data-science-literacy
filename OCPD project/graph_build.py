@@ -48,7 +48,7 @@ def build_similarity_graph(sentences = sentences):
     print(len(model.wv.vocab))
     for word in model.wv.vocab:
         for s in model.most_similar(word):
-            graph.add_edge(word,s[0],weigh = s[1])
+            graph.add_edge(word,s[0],weight = s[1])
     return graph
 
 #%%
@@ -61,7 +61,8 @@ nx.write_gexf(graph,'article_vocab.gexf')
 #%%
 with open('sentences_all_comments.pickle','rb')as fp:
     sentences = pickle.load(fp)
-print(sentences)
+#print(sentences)
+sentences = np.asarray(set(sentences))
 
 #%%
 graph = build_similarity_graph(sentences= sentences)
