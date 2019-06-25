@@ -17,27 +17,7 @@ model.most_similar(['copd'])
 #%%
 from gensim.models import TfidfModel
 from gensim import corpora
-#%%
-"""
-def get_tfidf(documents = sentences):  # ??gensim????tfidf
-	#documents=[[word for word in document.text.split()] for document in documents]	
-    dictionary = corpora.Dictionary(documents)
-    n_items = len(dictionary)
-    #print(dictionary)
-    corpus = [dictionary.doc2bow(text) for text in documents]
-    print(corpus)
-    tfidf = TfidfModel(corpus)
-    corpus_tfidf = tfidf[corpus]
-    ds = []
-    return
-    for doc in corpus_tfidf:
-        d = np.zeros(n_items)
-        for index, value in doc :
-            d[index]  = value
-        ds.append(d)
-    return ds
-print(get_tfidf())
-"""
+
 #%%
 import networkx as nx
 #%%

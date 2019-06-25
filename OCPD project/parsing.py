@@ -94,26 +94,7 @@ def doc_to_string(doc=['Devices that remotely monitor COPD patients’ condition
 #%%
 #Create a list of tockenised sentences of all articles
 def sentences_all_articles(text_list = pf_sentences_list):
-
-    # #because the string contains too much char, The string will be cut in two half
-    # pf_sentences_r_list  = pf_sentences_list[:len(pf_sentences_list)//2]
-    # pf_sentences_l_list  = pf_sentences_list[len(pf_sentences_list)//2:]
-    # print("right side of the list countains: "+ str(len(pf_sentences_r_list))+" elements")
-    # print(pf_sentences_r_list)
-    
-    # pf_sentences_r = ''.join(pf_sentences_r_list)
-    # return
-    # tocken_r = nlp(pf_sentences_r)
-    # pf_sentences = [sent.string.strip() for sent in tocken_r.sents]
-    # print("right side of the list countains: "+ str(len(pf_sentences)))
-    # pf_sentences_l = ''.join(pf_sentences_l_list)    
-    # tocken_l = nlp(pf_sentences_l)
-    # pf_sentences_l = [sent.string.strip() for sent in tocken_l.sents]
-    # print("left side of the list countains: "+ str(len(pf_sentences)))
-
-    # pf_sentences = pf_sentences_l + pf_sentences_r
     pf_sentences = doc_to_string(doc = text_list)
-
     sentences = [spacy_tokenizer(sentence) for sentence in pf_sentences]
     return sentences
 sentences = sentences_all_articles()
