@@ -2,6 +2,7 @@
 import os, os.path, pickle
 from bs4 import BeautifulSoup
 #%%
+# Open the dictionary that helps to find the file in the folder
 with open('article_name_dic.pickle','rb')as fp:
     dic_links = pickle.load(fp)
 
@@ -51,7 +52,7 @@ parser = English()
 # Creating our tokenizer function
 def spacy_tokenizer(sentence):
     # Creating our token object, which is used to create documents with linguistic annotations.
-    mytokens = parser(sentence)
+    mytokens = nlp(sentence)
 
     # Lemmatizing each token and converting each token into lowercase
     # We also remove numbers
@@ -66,7 +67,7 @@ def spacy_tokenizer(sentence):
 
 #print(spacy_tokenizer(get_txt_article()))
 #%%
-#Create a list of tockenised sentences of all articles
+# Create a list of tockenised sentences of all articles
 def get_text_all_articles(dic_links= dic_links):
     pf_sentences_list = []
     for link in dic_links.keys():
@@ -80,6 +81,7 @@ pf_sentences_list=get_text_all_articles()
 print(len(pf_sentences_list))
 
 #%%
+# Divides the text document into a list of sentences using nlp
 def doc_to_string(doc=['Devices that remotely monitor COPD patients’ conditions could help improve their outcomes, a study suggests.','\nA Cedars-Sinai Medical CenterÂ\xa0team said there were signs in the previous research it analyzed that remote monitoring could help COPD patients, although the evidence was far from definitive.\nIn addition, their analysis of 27 clinical trial results failed to provide enough evidence that the devices can improve the outcomes of patients with other conditions. Four of the trials the Los Angeles researchers looked at were for COPD.\nTheir report,Â\xa0â\x80\x9cImpact of remote patient monitoring on clinical outcomes: an updated meta-analysis of randomized controlled trials,Â\xa0appeared in the journal npj Digital Medicine.']):
     sentences = []
     count = 0
@@ -128,12 +130,6 @@ def comments_all_articles(dic_links=dic_links):
 comment_sentences = comments_all_articles()
 print(comment_sentences)
 
-#%%
-#Save all comment sentences tokenised
-#comment_sentences = [spacy_tokenizer(sentence) for sentence in com_sentences]
-
-with open('sentences_all_comments.pickle','wb+')as fp:
-    pickle.dump(comment_sentences,fp)
 
 #%%
 #Save all comment sentences in a list
