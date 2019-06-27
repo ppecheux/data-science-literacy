@@ -63,19 +63,31 @@ def build_similarity_graph(sentences = sentences):
             graph.add_edge(word,s[0],weight = s[1])
     return graph
 
-
 #%%
-def build_noun_graph(sentences = sentences):
+#
+def build_list_nodes(sentences = sentences):
+    freq_word_list = []
     model = word2vec.Word2Vec(sentences, size=200)
+
+    for word in model.wv.vocab:
+        t = (word,{'frequency':model.wv.vocab[word].count})
+        freq_word_list.append(t)
+    return freq_word_list, model
+#%%
+# build list of (word,{'freq':freq})
+def build_weighted_graph(sentences = sentences):
+    freq_word_list, model = build_list_nodes(sentences=sentences)
+    print(freq_word_list[:10])
     graph = nx.Graph()
-    graph.add_nodes_from(list(model.wv.vocab))
+    graph.add_nodes_from(freq_word_list)
     print(len(model.wv.vocab))
+
     for word in model.wv.vocab:
         for s in model.most_similar(word):
             graph.add_edge(word,s[0],weight = s[1])
     return graph
 #%%
-graph = build_similarity_graph(sentences)
+graph = build_weighted_graph(sentences)
 print(nx.info(graph))
 
 #%%
@@ -96,8 +108,13 @@ nx.write_gexf(graph,'comments_vocab.gexf')
 #%%
 with open('noun_sentences.pickle','rb')as fp:
     sentences = pickle.load(fp)
-graph = build_similarity_graph(sentences= sentences)
+graph = build_weighted_graph(sentences= sentences)
 print(nx.info(graph))
 
 #%%
-nx.write_gexf(graph,'noun_articles.gexf')
+nx.write_gexf(graph,'noun_freq_articles.gexf')
+
+#%%
+
+
+#%%
