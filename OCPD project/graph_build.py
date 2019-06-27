@@ -15,18 +15,30 @@ import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
 parser = English()
 #%%
-def pos_filter(sentences = sentences,pos = "-NOUN-"):
+# selects the words with specific pos
+def pos_filter(sentences = sentences,pos = ["NOUN"]):
     pos_sentences = []
     for sentence in sentences:
         #print(sentence)
         mytokens = nlp(' '.join(sentence))
-        pos_sentence = [word.lemma_ for word in mytokens if word.pos_ == 'NOUN' ]
+        pos_sentence = [word.string.strip() for word in mytokens if word.pos_ is in pos ]
         pos_sentences.append(pos_sentence)
     print(pos_sentences)
+    return pos_sentences
 
 noun_sentences = pos_filter(sentences)
+#%%
+#Save all noun sentences in a list pickle
+#
+noun_string_sentences = []
+for sentence in noun_sentences:
+    noun_string_sentence = [word.string.strip() for word in sentence]
+    noun_string_sentences.append(noun_string_sentence)
 
-
+#%%
+#
+with open('noun_sentences.pickle','wb+')as fp:
+    pickle.dump(noun_string_sentences,fp)
 #%%
 # gives the most similar words from copd
 model = word2vec.Word2Vec(sentences, size=200)
@@ -81,4 +93,11 @@ print(nx.info(graph))
 #%%
 nx.write_gexf(graph,'comments_vocab.gexf')
 
+#%%
+with open('noun_sentences.pickle','rb')as fp:
+    sentences = pickle.load(fp)
+graph = build_similarity_graph(sentences= sentences)
+print(nx.info(graph))
 
+#%%
+nx.write_gexf(graph,'noun_articles.gexf')

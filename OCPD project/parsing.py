@@ -133,7 +133,6 @@ print(comment_sentences)
 
 #%%
 #Save all comment sentences in a list
-#comment_sentences = [spacy_tokenizer(sentence) for sentence in com_sentences]
 
 with open('list_sentences_comments.pickle','wb+')as fp:
     pickle.dump(list_sentences_comments,fp)
