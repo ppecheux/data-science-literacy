@@ -15,7 +15,6 @@ def get_txt_article(link='https://lungdiseasenews.com/2015/08/18/boehringer-inge
         soup = BeautifulSoup(fp)
     pf_content = soup.find("div",class_="pf-content").get_text()
     pf_content=pf_content.replace('Print This Article','')
-    #print(pf_content)
     return pf_content
     #for readmorebox in soup.find_all("a",class_="readmore-link"):
     #print(pf_content.attrs['href'])
@@ -38,15 +37,10 @@ def get_list_comments(link='https://lungdiseasenews.com/2017/09/15/lung-disease-
 
 #%%
 import string
-import numpy as np
 from spacy.lang.en.stop_words import STOP_WORDS
 import en_core_web_sm
-from spacy.lang.en import English
-
-#from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 nlp = en_core_web_sm.load()
 #nlp.max_length = 2000000
-parser = English()
 
 #%%
 # Creating our tokenizer function
@@ -71,8 +65,6 @@ def spacy_tokenizer(sentence):
 def get_text_all_articles(dic_links= dic_links):
     pf_sentences_list = []
     for link in dic_links.keys():
-        #print(link)
-        #print(get_txt_article(link))
         pf_sentences_list.append(get_txt_article(link))
         
     return(pf_sentences_list)
@@ -99,10 +91,9 @@ def sentences_all_articles(text_list = pf_sentences_list):
     pf_sentences = doc_to_string(doc = text_list)
     sentences = [spacy_tokenizer(sentence) for sentence in pf_sentences]
     return sentences
-sentences = sentences_all_articles()
-print(len(sentences))
-#%%
-print(sentences[:10])
+#sentences = sentences_all_articles()
+#print(len(sentences))
+#print(sentences[:10])
 #%%
 #Save allarticle sentences
 with open('sentences_all_article.pickle','wb+')as fp:
@@ -110,77 +101,45 @@ with open('sentences_all_article.pickle','wb+')as fp:
 
 
 #%%
-def comments_all_articles(dic_links=dic_links):
+# Get the list of sentences of the comment without the tockenization
+def list_sentences_comments(dic_links=dic_links):
     all_comments = []
     joined_com = ''
     for link in dic_links.keys():
         comments = get_list_comments(link)
-        #print(comments)
         joined_com = joined_com.join(comments)
-        #print(joined_com)
-        break
-    tocken = nlp(joined_com)
-    comments = [sent.string.strip() for sent in tocken.sents]
-    all_comments += comments
-    print(comments)
-    
-    #print(comments)
-    commment_sentences = [spacy_tokenizer(sentence) for sentence in comments]
+        tocken = nlp(joined_com)
+        comments = [sent.string.strip() for sent in tocken.sents]
+        all_comments += comments
+
+    print(all_comments)
+#    commment_sentences = [spacy_tokenizer(sentence) for sentence in comments]
     return all_comments
-comment_sentences = comments_all_articles()
+comment_sentences = list_sentences_comments()
 print(comment_sentences)
 
 
 #%%
 #Save all comment sentences in a list
-
+list_sentences_comments = comment_sentences
 with open('list_sentences_comments.pickle','wb+')as fp:
     pickle.dump(list_sentences_comments,fp)
-#%%
-#Gives the vector of a word based on the nlp model that we choosed
-doc = nlp(get_txt_article())
-for tocken in doc[10:12]:
-    print(tocken.vector)
-    break
-#%%
-#
-from gensim.models import word2vec
+
 
 #%%
-sentences = [spacy_tokenizer(sentence) for sentence in get_txt_article().split('.')]
-
-#%%
-with open('sentences_all_article.pickle','rb')as fp:
-    sentences = pickle.load(fp)
-print(sentences)
-#%%
-# gives the most similar words from copd
-model = word2vec.Word2Vec(sentences, size=200)
-print(sentences)
-print(model.wv.vocab )
-model.most_similar(['copd'])
-#%%
-
+# Verify what is inside sentences_all_comments : list of sentences tockenized
 with open('sentences_all_comments.pickle','rb')as fp:
     com_sentences = pickle.load(fp)
-#print(com_sentences)
-
+print(com_sentences[:10])
 #%%
-# gives the most similar words from copd
+import pickle
+import re
 
-sentences = com_sentences
-print(len(sentences))
-model = word2vec.Word2Vec(sentences, size=200)
-print(sentences)
-print(model)
-print(model.wv.vocab )
-model.most_similar(['lung'])
 #%%
 #Search for the age of the people interested
-import pickle
 with open('list_sentences_comments.pickle','rb')as fp:
     com_sentences = pickle.load(fp)
-import re
+print(com_sentences[:10])
 #%%
 regex = r"\d{2}[[:blank:]][y]"
 
@@ -199,7 +158,6 @@ for matchNum, match in enumerate(matches, start=1):
 
 #%%
 #
-regex = r"\d{2}\s?[y]"
 regex = r"([Ii]((\sam)|(\swas)|(’m))\s(((\w+\s+)?\d{2})|((\w+\s+)+?\d{2}\s[y])))"
 regage = r"\d{2}"
 unic_com_sentences = list(set(com_sentences))
@@ -226,5 +184,5 @@ print(age)
 import matplotlib.pyplot as plt
 
 #%%
-plt.hist(age)
+plt.hist(age,label='age in years')
 #%%

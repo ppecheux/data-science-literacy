@@ -2,7 +2,6 @@
 #
 import numpy as np
 import pickle
-
 from gensim.models import word2vec
 
 #%%
@@ -10,10 +9,9 @@ with open('sentences_all_article.pickle','rb')as fp:
     sentences = pickle.load(fp)
 print(sentences)
 #%%select only the nouns
-from spacy.lang.en import English
 import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
-parser = English()
+
 #%%
 # selects the words with specific pos
 def pos_filter(sentences = sentences,pos = ["NOUN"]):
@@ -46,9 +44,7 @@ model = word2vec.Word2Vec(sentences, size=200)
 #print(model.wv.vocab )
 print(model.wv.vocab["copd"].count)
 #model.most_similar(['copd'])
-#%%
-from gensim.models import TfidfModel
-from gensim import corpora
+
 
 #%%
 import networkx as nx
