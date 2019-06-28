@@ -119,7 +119,7 @@ print(comment_sentences)
 
 #%%
 #Save all comment sentences in a list
-list_sentences_comments = comment_sentences
+list_sentences_comments = list(set(comment_sentences))
 with open('list_sentences_comments.pickle','wb+')as fp:
     pickle.dump(list_sentences_comments,fp)
 

@@ -11,7 +11,7 @@ print(sentences[:10])
 import spacy
 import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
-sentences = [['site', 'copd'], ['dwell', 'pulmonary', 'fibrosis']]
+#sentences = [['site', 'copd'], ['dwell', 'pulmonary', 'fibrosis']]
 
 #%%
 # selects the words with specific pos
@@ -20,22 +20,36 @@ def pos_filter(sentences = sentences,pos = ["NOUN"]):
     for sentence in sentences:
         #print(sentence)
         mytokens = nlp(' '.join(sentence))
-        pos_sentence = [word.string.strip() for word in mytokens if word.pos_ is in pos ]
+        pos_sentence = [word.string.strip() for word in mytokens if word.pos_ in pos ]
         pos_sentences.append(pos_sentence)
     print(pos_sentences)
     return pos_sentences
 
-noun_sentences = pos_filter(sentences)
+#noun_sentences = pos_filter(sentences)
 #%%
-#Save all noun sentences in a list pickle
 #
-noun_string_sentences = []
-for sentence in noun_sentences:
-    noun_string_sentence = [word.string.strip() for word in sentence]
-    noun_string_sentences.append(noun_string_sentence)
+def list_pos_sentences(sentences,pos=["NOUN"]):
+    noun_string_sentences = []
+    for sentence in pos_filter(sentences,pos):
+        noun_string_sentence = [word for word in sentence]
+        noun_string_sentences.append(noun_string_sentence)
+    return noun_string_sentences
+
+#%%
+with open('sentences_all_comments.pickle','rb')as fp:
+    sentences = pickle.load(fp)
+print(sentences[:10])
+noun_string_comment_sentences = list_pos_sentences(sentences)
+print(noun_string_comment_sentences[:10])
 
 #%%
 #
+#Save all noun sentences in a list pickle
+with open('noun_comments.pickle','wb+')as fp:
+    pickle.dump(noun_string_comment_sentences,fp)
+#%%
+#
+#Save all noun sentences in a list pickle
 with open('noun_sentences.pickle','wb+')as fp:
     pickle.dump(noun_string_sentences,fp)
 #%%
@@ -113,6 +127,8 @@ print(nx.info(graph))
 nx.write_gexf(graph,'noun_freq_articles.gexf')
 
 #%%
-
+graph = build_weighted_graph(sentences= noun_string_comment_sentences)
+print(nx.info(graph))
 
 #%%
+nx.write_gexf(graph,'noun_freq_comments.gexf')

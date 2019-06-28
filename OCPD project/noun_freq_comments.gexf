@@ -1,0 +1,2040 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="frequency" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>28/06/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="insurance" label="insurance">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="use" label="use">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="pay" label="pay">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="site" label="site">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="sea" label="sea">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="year" label="year">
+        <attvalues>
+          <attvalue for="0" value="91" />
+        </attvalues>
+      </node>
+      <node id="result" label="result">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="lung" label="lung">
+        <attvalues>
+          <attvalue for="0" value="151" />
+        </attvalues>
+      </node>
+      <node id="thing" label="thing">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="cause" label="cause">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="health" label="health">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="copd" label="copd">
+        <attvalues>
+          <attvalue for="0" value="155" />
+        </attvalues>
+      </node>
+      <node id="study" label="study">
+        <attvalues>
+          <attvalue for="0" value="107" />
+        </attvalues>
+      </node>
+      <node id="life" label="life">
+        <attvalues>
+          <attvalue for="0" value="60" />
+        </attvalues>
+      </node>
+      <node id="treatment" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="stem" label="stem">
+        <attvalues>
+          <attvalue for="0" value="84" />
+        </attvalues>
+      </node>
+      <node id="cell" label="cell">
+        <attvalues>
+          <attvalue for="0" value="87" />
+        </attvalues>
+      </node>
+      <node id="wife" label="wife">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="talk" label="talk">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="process" label="process">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="transplant" label="transplant">
+        <attvalues>
+          <attvalue for="0" value="42" />
+        </attvalues>
+      </node>
+      <node id="try" label="try">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="day" label="day">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="list" label="list">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="need" label="need">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="rehab" label="rehab">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="program" label="program">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="exercise" label="exercise">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="doctor" label="doctor">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="month" label="month">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="time" label="time">
+        <attvalues>
+          <attvalue for="0" value="30" />
+        </attvalues>
+      </node>
+      <node id="experience" label="experience">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="heart" label="heart">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="diagnose" label="diagnose">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="travel" label="travel">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="physician" label="physician">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="check" label="check">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="family" label="family">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="friend" label="friend">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="help" label="help">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="people" label="people">
+        <attvalues>
+          <attvalue for="0" value="44" />
+        </attvalues>
+      </node>
+      <node id="disease" label="disease">
+        <attvalues>
+          <attvalue for="0" value="52" />
+        </attvalues>
+      </node>
+      <node id="person" label="person">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="chance" label="chance">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="success" label="success">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="trial" label="trial">
+        <attvalues>
+          <attvalue for="0" value="94" />
+        </attvalues>
+      </node>
+      <node id="research" label="research">
+        <attvalues>
+          <attvalue for="0" value="47" />
+        </attvalues>
+      </node>
+      <node id="website" label="website">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="evaluation" label="evaluation">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="test" label="test">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="information" label="information">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="report" label="report">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="lot" label="lot">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="institute" label="institute">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="drug" label="drug">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="rest" label="rest">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="post" label="post">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="issue" label="issue">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="cure" label="cure">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="contact" label="contact">
+        <attvalues>
+          <attvalue for="0" value="23" />
+        </attvalues>
+      </node>
+      <node id="hospital" label="hospital">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="medication" label="medication">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="search" label="search">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="bronchitis" label="bronchitis">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="oxygen" label="oxygen">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </node>
+      <node id="work" label="work">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="way" label="way">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="breath" label="breath">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="stage" label="stage">
+        <attvalues>
+          <attvalue for="0" value="25" />
+        </attvalues>
+      </node>
+      <node id="florida" label="florida">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="area" label="area">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="nc" label="nc">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="mother" label="mother">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="hope" label="hope">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="scam" label="scam">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="age" label="age">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="candidate" label="candidate">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="valve" label="valve">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="procedure" label="procedure">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="n’t" label="n’t">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="lady" label="lady">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="son" label="son">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="walk" label="walk">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="stuff" label="stuff">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="care" label="care">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="article" label="article">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="inhaler" label="inhaler">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="news" label="news">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="opinion" label="opinion">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="breathing" label="breathing">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="problem" label="problem">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="fibrosis" label="fibrosis">
+        <attvalues>
+          <attvalue for="0" value="39" />
+        </attvalues>
+      </node>
+      <node id="money" label="money">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="response" label="response">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="fda" label="fda">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="love" label="love">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="development" label="development">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="condition" label="condition">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="place" label="place">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="function" label="function">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="surgery" label="surgery">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="barnes" label="barnes">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="greed" label="greed">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="researcher" label="researcher">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="medicine" label="medicine">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="tcm" label="tcm">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="effect" label="effect">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="level" label="level">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="asthma" label="asthma">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="rate" label="rate">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="yrs" label="yrs">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="smoker" label="smoker">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="therapy" label="therapy">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="mind" label="mind">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="course" label="course">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="u" label="u">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="bronchiectasis" label="bronchiectasis">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="risk" label="risk">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="emphysema" label="emphysema">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="north" label="north">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="follow" label="follow">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="hand" label="hand">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="sign" label="sign">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="info" label="info">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="matter" label="matter">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="bear" label="bear">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="week" label="week">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="reduction" label="reduction">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="damage" label="damage">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="magdalena" label="magdalena">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="approval" label="approval">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="flow" label="flow">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="air" label="air">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="husband" label="husband">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="group" label="group">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="offer" label="offer">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="treat" label="treat">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="answer" label="answer">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="question" label="question">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="benefit" label="benefit">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="hear" label="hear">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="end" label="end">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="company" label="company">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="prayer" label="prayer">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="wonder" label="wonder">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="pulmonologist" label="pulmonologist">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="clinic" label="clinic">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="medicare" label="medicare">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="plan" label="plan">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="case" label="case">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="smoke" label="smoke">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="ken" label="ken">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="share" label="share">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="trail" label="trail">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="dollar" label="dollar">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="home" label="home">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="community" label="community">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="volunteer" label="volunteer">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="mark" label="mark">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="repeat" label="repeat">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="cost" label="cost">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="participate" label="participate">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="reason" label="reason">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="page" label="page">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="university" label="university">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="patient" label="patient">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="symptom" label="symptom">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="survival" label="survival">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="carolina" label="carolina">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="bone" label="bone">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="tissue" label="tissue">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="participant" label="participant">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="portion" label="portion">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="email" label="email">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="insurance" target="chance" weight="0.2873620390892029" />
+      <edge id="1" source="insurance" target="lung" weight="0.2345534712076187" />
+      <edge id="2" source="insurance" target="copd" weight="0.22900977730751038" />
+      <edge id="3" source="insurance" target="stem" weight="0.2022695541381836" />
+      <edge id="4" source="insurance" target="diagnose" weight="0.1844785362482071" />
+      <edge id="5" source="insurance" target="u" weight="0.18287289142608643" />
+      <edge id="6" source="insurance" target="sign" weight="0.18169420957565308" />
+      <edge id="7" source="insurance" target="page" weight="0.18016675114631653" />
+      <edge id="8" source="insurance" target="course" weight="0.18009409308433533" />
+      <edge id="9" source="insurance" target="reason" weight="0.176786869764328" />
+      <edge id="10" source="insurance" target="process" weight="0.15879516303539276" />
+      <edge id="11" source="insurance" target="bronchitis" weight="0.12929970026016235" />
+      <edge id="12" source="insurance" target="mother" weight="0.1388651430606842" />
+      <edge id="13" source="insurance" target="stuff" weight="0.1561577022075653" />
+      <edge id="14" source="insurance" target="reduction" weight="0.1728106439113617" />
+      <edge id="15" source="insurance" target="treat" weight="0.13328473269939423" />
+      <edge id="16" source="insurance" target="prayer" weight="0.1596967875957489" />
+      <edge id="17" source="insurance" target="participant" weight="0.14828476309776306" />
+      <edge id="18" source="use" target="hope" weight="0.20880788564682007" />
+      <edge id="19" source="use" target="trial" weight="0.20720866322517395" />
+      <edge id="20" source="use" target="article" weight="0.18079374730587006" />
+      <edge id="21" source="use" target="risk" weight="0.17994645237922668" />
+      <edge id="22" source="use" target="need" weight="0.17039404809474945" />
+      <edge id="23" source="use" target="contact" weight="0.16865547001361847" />
+      <edge id="24" source="use" target="function" weight="0.15198197960853577" />
+      <edge id="25" source="use" target="effect" weight="0.14227470755577087" />
+      <edge id="26" source="use" target="patient" weight="0.14157287776470184" />
+      <edge id="27" source="use" target="magdalena" weight="0.13740406930446625" />
+      <edge id="28" source="use" target="air" weight="0.13598394393920898" />
+      <edge id="29" source="pay" target="candidate" weight="0.24074046313762665" />
+      <edge id="30" source="pay" target="breath" weight="0.24053408205509186" />
+      <edge id="31" source="pay" target="fda" weight="0.21420970559120178" />
+      <edge id="32" source="pay" target="lung" weight="0.19364753365516663" />
+      <edge id="33" source="pay" target="sign" weight="0.19307544827461243" />
+      <edge id="34" source="pay" target="day" weight="0.1924184262752533" />
+      <edge id="35" source="pay" target="emphysema" weight="0.18758517503738403" />
+      <edge id="36" source="pay" target="wife" weight="0.17848415672779083" />
+      <edge id="37" source="pay" target="approval" weight="0.173149973154068" />
+      <edge id="38" source="pay" target="patient" weight="0.17215150594711304" />
+      <edge id="39" source="pay" target="family" weight="0.16096623241901398" />
+      <edge id="40" source="pay" target="success" weight="0.13847902417182922" />
+      <edge id="41" source="pay" target="lady" weight="0.16470909118652344" />
+      <edge id="42" source="pay" target="walk" weight="0.12693658471107483" />
+      <edge id="43" source="pay" target="breathing" weight="0.14561179280281067" />
+      <edge id="44" source="pay" target="function" weight="0.1698472797870636" />
+      <edge id="45" source="pay" target="medicine" weight="0.10825325548648834" />
+      <edge id="46" source="pay" target="risk" weight="0.14302706718444824" />
+      <edge id="47" source="pay" target="flow" weight="0.1494322270154953" />
+      <edge id="48" source="pay" target="smoke" weight="0.1467120200395584" />
+      <edge id="49" source="site" target="post" weight="0.19962051510810852" />
+      <edge id="50" source="site" target="rehab" weight="0.1940898597240448" />
+      <edge id="51" source="site" target="opinion" weight="0.1661255955696106" />
+      <edge id="52" source="site" target="money" weight="0.1580733060836792" />
+      <edge id="53" source="site" target="lot" weight="0.15201954543590546" />
+      <edge id="54" source="site" target="wonder" weight="0.14953920245170593" />
+      <edge id="55" source="site" target="walk" weight="0.14194795489311218" />
+      <edge id="56" source="site" target="cure" weight="0.13676957786083221" />
+      <edge id="57" source="site" target="list" weight="0.13406816124916077" />
+      <edge id="58" source="site" target="travel" weight="0.1332351267337799" />
+      <edge id="59" source="site" target="smoker" weight="0.11433665454387665" />
+      <edge id="60" source="sea" target="mother" weight="0.17864249646663666" />
+      <edge id="61" source="sea" target="time" weight="0.17012961208820343" />
+      <edge id="62" source="sea" target="list" weight="0.1700376272201538" />
+      <edge id="63" source="sea" target="patient" weight="0.1623941957950592" />
+      <edge id="64" source="sea" target="north" weight="0.15372315049171448" />
+      <edge id="65" source="sea" target="stuff" weight="0.1436711996793747" />
+      <edge id="66" source="sea" target="program" weight="0.1320037543773651" />
+      <edge id="67" source="sea" target="question" weight="0.13005205988883972" />
+      <edge id="68" source="sea" target="emphysema" weight="0.12808525562286377" />
+      <edge id="69" source="sea" target="therapy" weight="0.1252656877040863" />
+      <edge id="70" source="sea" target="offer" weight="0.11002317070960999" />
+      <edge id="71" source="sea" target="volunteer" weight="0.11925263702869415" />
+      <edge id="72" source="year" target="company" weight="0.3523021340370178" />
+      <edge id="73" source="year" target="week" weight="0.2085822969675064" />
+      <edge id="74" source="year" target="rate" weight="0.18852776288986206" />
+      <edge id="75" source="year" target="cost" weight="0.1804986298084259" />
+      <edge id="76" source="year" target="article" weight="0.17553237080574036" />
+      <edge id="77" source="year" target="pulmonologist" weight="0.16376832127571106" />
+      <edge id="78" source="year" target="home" weight="0.16356125473976135" />
+      <edge id="79" source="year" target="medication" weight="0.15905523300170898" />
+      <edge id="80" source="year" target="transplant" weight="0.15885157883167267" />
+      <edge id="81" source="year" target="treatment" weight="0.15838783979415894" />
+      <edge id="82" source="year" target="procedure" weight="0.1452215313911438" />
+      <edge id="83" source="year" target="yrs" weight="0.1487678438425064" />
+      <edge id="84" source="year" target="risk" weight="0.14451569318771362" />
+      <edge id="85" source="year" target="reduction" weight="0.15768694877624512" />
+      <edge id="86" source="result" target="damage" weight="0.19874481856822968" />
+      <edge id="87" source="result" target="condition" weight="0.19348964095115662" />
+      <edge id="88" source="result" target="stem" weight="0.18822148442268372" />
+      <edge id="89" source="result" target="list" weight="0.1715768277645111" />
+      <edge id="90" source="result" target="money" weight="0.16702872514724731" />
+      <edge id="91" source="result" target="treatment" weight="0.16453564167022705" />
+      <edge id="92" source="result" target="pulmonologist" weight="0.15678060054779053" />
+      <edge id="93" source="result" target="hospital" weight="0.1564168930053711" />
+      <edge id="94" source="result" target="wonder" weight="0.1559956669807434" />
+      <edge id="95" source="result" target="post" weight="0.14872097969055176" />
+      <edge id="96" source="lung" target="copd" weight="0.3380140960216522" />
+      <edge id="97" source="lung" target="treatment" weight="0.33497530221939087" />
+      <edge id="98" source="lung" target="diagnose" weight="0.32442545890808105" />
+      <edge id="99" source="lung" target="transplant" weight="0.29133695363998413" />
+      <edge id="100" source="lung" target="function" weight="0.27774283289909363" />
+      <edge id="101" source="lung" target="week" weight="0.25858208537101746" />
+      <edge id="102" source="lung" target="fda" weight="0.24892514944076538" />
+      <edge id="103" source="lung" target="stem" weight="0.23867809772491455" />
+      <edge id="104" source="lung" target="sign" weight="0.23565822839736938" />
+      <edge id="105" source="lung" target="cause" weight="0.13883917033672333" />
+      <edge id="106" source="lung" target="health" weight="0.2232542335987091" />
+      <edge id="107" source="lung" target="wife" weight="0.16882723569869995" />
+      <edge id="108" source="lung" target="talk" weight="0.22225844860076904" />
+      <edge id="109" source="lung" target="month" weight="0.17478547990322113" />
+      <edge id="110" source="lung" target="time" weight="0.18006044626235962" />
+      <edge id="111" source="lung" target="experience" weight="0.17361034452915192" />
+      <edge id="112" source="lung" target="physician" weight="0.1707870215177536" />
+      <edge id="113" source="lung" target="disease" weight="0.2064700722694397" />
+      <edge id="114" source="lung" target="trial" weight="0.16999155282974243" />
+      <edge id="115" source="lung" target="website" weight="0.14390531182289124" />
+      <edge id="116" source="lung" target="lot" weight="0.17315895855426788" />
+      <edge id="117" source="lung" target="drug" weight="0.18940557539463043" />
+      <edge id="118" source="lung" target="cure" weight="0.2117944061756134" />
+      <edge id="119" source="lung" target="contact" weight="0.17244331538677216" />
+      <edge id="120" source="lung" target="hospital" weight="0.203139066696167" />
+      <edge id="121" source="lung" target="medication" weight="0.18764016032218933" />
+      <edge id="122" source="lung" target="oxygen" weight="0.18936973810195923" />
+      <edge id="123" source="lung" target="breath" weight="0.21420490741729736" />
+      <edge id="124" source="lung" target="florida" weight="0.20998843014240265" />
+      <edge id="125" source="lung" target="area" weight="0.21429269015789032" />
+      <edge id="126" source="lung" target="mother" weight="0.14826098084449768" />
+      <edge id="127" source="lung" target="hope" weight="0.1638423204421997" />
+      <edge id="128" source="lung" target="scam" weight="0.17641565203666687" />
+      <edge id="129" source="lung" target="lady" weight="0.16216889023780823" />
+      <edge id="130" source="lung" target="walk" weight="0.13356223702430725" />
+      <edge id="131" source="lung" target="article" weight="0.22136102616786957" />
+      <edge id="132" source="lung" target="money" weight="0.19442333281040192" />
+      <edge id="133" source="lung" target="love" weight="0.15279944241046906" />
+      <edge id="134" source="lung" target="development" weight="0.1269068419933319" />
+      <edge id="135" source="lung" target="place" weight="0.16067156195640564" />
+      <edge id="136" source="lung" target="barnes" weight="0.2001079022884369" />
+      <edge id="137" source="lung" target="tcm" weight="0.1738874614238739" />
+      <edge id="138" source="lung" target="level" weight="0.14011842012405396" />
+      <edge id="139" source="lung" target="rate" weight="0.2114419937133789" />
+      <edge id="140" source="lung" target="course" weight="0.17188923060894012" />
+      <edge id="141" source="lung" target="emphysema" weight="0.22628793120384216" />
+      <edge id="142" source="lung" target="north" weight="0.22345909476280212" />
+      <edge id="143" source="lung" target="matter" weight="0.14889267086982727" />
+      <edge id="144" source="lung" target="reduction" weight="0.15529987215995789" />
+      <edge id="145" source="lung" target="approval" weight="0.22253188490867615" />
+      <edge id="146" source="lung" target="flow" weight="0.1439708173274994" />
+      <edge id="147" source="lung" target="question" weight="0.18111205101013184" />
+      <edge id="148" source="lung" target="end" weight="0.1747339516878128" />
+      <edge id="149" source="lung" target="prayer" weight="0.15267473459243774" />
+      <edge id="150" source="lung" target="wonder" weight="0.1601995974779129" />
+      <edge id="151" source="lung" target="clinic" weight="0.1362970918416977" />
+      <edge id="152" source="lung" target="plan" weight="0.13655155897140503" />
+      <edge id="153" source="lung" target="dollar" weight="0.15127213299274445" />
+      <edge id="154" source="lung" target="community" weight="0.18052394688129425" />
+      <edge id="155" source="lung" target="repeat" weight="0.18875214457511902" />
+      <edge id="156" source="lung" target="participate" weight="0.1650659292936325" />
+      <edge id="157" source="lung" target="bone" weight="0.16354472935199738" />
+      <edge id="158" source="lung" target="tissue" weight="0.16133549809455872" />
+      <edge id="159" source="lung" target="email" weight="0.14497694373130798" />
+      <edge id="160" source="thing" target="cell" weight="0.17724472284317017" />
+      <edge id="161" source="thing" target="development" weight="0.17188861966133118" />
+      <edge id="162" source="thing" target="website" weight="0.165170818567276" />
+      <edge id="163" source="thing" target="disease" weight="0.15461315214633942" />
+      <edge id="164" source="thing" target="trial" weight="0.14657339453697205" />
+      <edge id="165" source="thing" target="copd" weight="0.1419762223958969" />
+      <edge id="166" source="thing" target="issue" weight="0.1393686830997467" />
+      <edge id="167" source="thing" target="inhaler" weight="0.13122180104255676" />
+      <edge id="168" source="thing" target="family" weight="0.12825049459934235" />
+      <edge id="169" source="thing" target="place" weight="0.1253550797700882" />
+      <edge id="170" source="cause" target="diagnose" weight="0.18953600525856018" />
+      <edge id="171" source="cause" target="time" weight="0.16068027913570404" />
+      <edge id="172" source="cause" target="heart" weight="0.1554877758026123" />
+      <edge id="173" source="cause" target="nc" weight="0.1507079005241394" />
+      <edge id="174" source="cause" target="community" weight="0.1495593637228012" />
+      <edge id="175" source="cause" target="cost" weight="0.148478701710701" />
+      <edge id="176" source="cause" target="lady" weight="0.13795426487922668" />
+      <edge id="177" source="cause" target="problem" weight="0.13692936301231384" />
+      <edge id="178" source="cause" target="physician" weight="0.13592024147510529" />
+      <edge id="179" source="health" target="fda" weight="0.27416491508483887" />
+      <edge id="180" source="health" target="chance" weight="0.20276807248592377" />
+      <edge id="181" source="health" target="place" weight="0.19524671137332916" />
+      <edge id="182" source="health" target="rehab" weight="0.19086185097694397" />
+      <edge id="183" source="health" target="website" weight="0.1830030083656311" />
+      <edge id="184" source="health" target="report" weight="0.1795264184474945" />
+      <edge id="185" source="health" target="florida" weight="0.1778750717639923" />
+      <edge id="186" source="health" target="lady" weight="0.17533394694328308" />
+      <edge id="187" source="health" target="magdalena" weight="0.1720273345708847" />
+      <edge id="188" source="health" target="time" weight="0.1465662270784378" />
+      <edge id="189" source="health" target="research" weight="0.15563194453716278" />
+      <edge id="190" source="health" target="researcher" weight="0.14190788567066193" />
+      <edge id="191" source="health" target="asthma" weight="0.11863942444324493" />
+      <edge id="192" source="health" target="matter" weight="0.1416763961315155" />
+      <edge id="193" source="copd" target="treatment" weight="0.3073049485683441" />
+      <edge id="194" source="copd" target="chance" weight="0.23441892862319946" />
+      <edge id="195" source="copd" target="oxygen" weight="0.21193604171276093" />
+      <edge id="196" source="copd" target="disease" weight="0.19851090013980865" />
+      <edge id="197" source="copd" target="fda" weight="0.18059641122817993" />
+      <edge id="198" source="copd" target="smoke" weight="0.1772540807723999" />
+      <edge id="199" source="copd" target="love" weight="0.1753491461277008" />
+      <edge id="200" source="copd" target="age" weight="0.1714458465576172" />
+      <edge id="201" source="copd" target="day" weight="0.1678866297006607" />
+      <edge id="202" source="copd" target="bronchitis" weight="0.1509493887424469" />
+      <edge id="203" source="copd" target="tcm" weight="0.1682506501674652" />
+      <edge id="204" source="copd" target="damage" weight="0.16797637939453125" />
+      <edge id="205" source="copd" target="question" weight="0.14913660287857056" />
+      <edge id="206" source="copd" target="volunteer" weight="0.1408964991569519" />
+      <edge id="207" source="study" target="university" weight="0.23661693930625916" />
+      <edge id="208" source="study" target="problem" weight="0.19838069379329681" />
+      <edge id="209" source="study" target="hospital" weight="0.19173690676689148" />
+      <edge id="210" source="study" target="age" weight="0.18928171694278717" />
+      <edge id="211" source="study" target="case" weight="0.17796266078948975" />
+      <edge id="212" source="study" target="approval" weight="0.16480880975723267" />
+      <edge id="213" source="study" target="physician" weight="0.16281436383724213" />
+      <edge id="214" source="study" target="disease" weight="0.1571865677833557" />
+      <edge id="215" source="study" target="cost" weight="0.15469971299171448" />
+      <edge id="216" source="study" target="people" weight="0.15321052074432373" />
+      <edge id="217" source="study" target="exercise" weight="0.1416633129119873" />
+      <edge id="218" source="study" target="surgery" weight="0.14261482656002045" />
+      <edge id="219" source="study" target="offer" weight="0.12301502376794815" />
+      <edge id="220" source="life" target="pulmonologist" weight="0.19803369045257568" />
+      <edge id="221" source="life" target="area" weight="0.16826191544532776" />
+      <edge id="222" source="life" target="community" weight="0.15794327855110168" />
+      <edge id="223" source="life" target="lot" weight="0.15176276862621307" />
+      <edge id="224" source="life" target="surgery" weight="0.1435851752758026" />
+      <edge id="225" source="life" target="money" weight="0.14228065311908722" />
+      <edge id="226" source="life" target="report" weight="0.13677239418029785" />
+      <edge id="227" source="life" target="florida" weight="0.13150599598884583" />
+      <edge id="228" source="life" target="information" weight="0.13023987412452698" />
+      <edge id="229" source="life" target="place" weight="0.12675660848617554" />
+      <edge id="230" source="treatment" target="disease" weight="0.23929795622825623" />
+      <edge id="231" source="treatment" target="oxygen" weight="0.22856083512306213" />
+      <edge id="232" source="treatment" target="trial" weight="0.22848035395145416" />
+      <edge id="233" source="treatment" target="fda" weight="0.21303164958953857" />
+      <edge id="234" source="treatment" target="week" weight="0.2111527919769287" />
+      <edge id="235" source="treatment" target="carolina" weight="0.20862439274787903" />
+      <edge id="236" source="treatment" target="hospital" weight="0.20811237394809723" />
+      <edge id="237" source="treatment" target="fibrosis" weight="0.20506586134433746" />
+      <edge id="238" source="treatment" target="wife" weight="0.19144076108932495" />
+      <edge id="239" source="treatment" target="month" weight="0.19761456549167633" />
+      <edge id="240" source="treatment" target="experience" weight="0.1762820929288864" />
+      <edge id="241" source="treatment" target="evaluation" weight="0.1938808113336563" />
+      <edge id="242" source="treatment" target="report" weight="0.16009698808193207" />
+      <edge id="243" source="treatment" target="drug" weight="0.1463148295879364" />
+      <edge id="244" source="treatment" target="medication" weight="0.19528256356716156" />
+      <edge id="245" source="treatment" target="breath" weight="0.1794748604297638" />
+      <edge id="246" source="treatment" target="area" weight="0.1658916175365448" />
+      <edge id="247" source="treatment" target="nc" weight="0.18429136276245117" />
+      <edge id="248" source="treatment" target="problem" weight="0.19030779600143433" />
+      <edge id="249" source="treatment" target="barnes" weight="0.18155567348003387" />
+      <edge id="250" source="treatment" target="mind" weight="0.12908685207366943" />
+      <edge id="251" source="treatment" target="course" weight="0.18523970246315002" />
+      <edge id="252" source="treatment" target="magdalena" weight="0.17642173171043396" />
+      <edge id="253" source="treatment" target="company" weight="0.1883833408355713" />
+      <edge id="254" source="treatment" target="pulmonologist" weight="0.15523844957351685" />
+      <edge id="255" source="treatment" target="clinic" weight="0.14138716459274292" />
+      <edge id="256" source="treatment" target="page" weight="0.1859378218650818" />
+      <edge id="257" source="treatment" target="university" weight="0.1575145721435547" />
+      <edge id="258" source="stem" target="disease" weight="0.2728863060474396" />
+      <edge id="259" source="stem" target="rate" weight="0.20614704489707947" />
+      <edge id="260" source="stem" target="wonder" weight="0.20334991812705994" />
+      <edge id="261" source="stem" target="success" weight="0.19540680944919586" />
+      <edge id="262" source="stem" target="report" weight="0.1943887174129486" />
+      <edge id="263" source="stem" target="patient" weight="0.19235482811927795" />
+      <edge id="264" source="stem" target="evaluation" weight="0.19180083274841309" />
+      <edge id="265" source="stem" target="process" weight="0.1740148961544037" />
+      <edge id="266" source="stem" target="help" weight="0.16513000428676605" />
+      <edge id="267" source="stem" target="website" weight="0.16695713996887207" />
+      <edge id="268" source="stem" target="post" weight="0.1276877224445343" />
+      <edge id="269" source="stem" target="issue" weight="0.1575886309146881" />
+      <edge id="270" source="stem" target="candidate" weight="0.14923717081546783" />
+      <edge id="271" source="stem" target="news" weight="0.16318665444850922" />
+      <edge id="272" source="stem" target="benefit" weight="0.1654457449913025" />
+      <edge id="273" source="stem" target="company" weight="0.18380150198936462" />
+      <edge id="274" source="stem" target="ken" weight="0.1822836995124817" />
+      <edge id="275" source="stem" target="reason" weight="0.18292534351348877" />
+      <edge id="276" source="cell" target="people" weight="0.21817444264888763" />
+      <edge id="277" source="cell" target="bone" weight="0.21321630477905273" />
+      <edge id="278" source="cell" target="list" weight="0.19700783491134644" />
+      <edge id="279" source="cell" target="fda" weight="0.194218248128891" />
+      <edge id="280" source="cell" target="tissue" weight="0.19217610359191895" />
+      <edge id="281" source="cell" target="evaluation" weight="0.19076848030090332" />
+      <edge id="282" source="cell" target="answer" weight="0.18649521470069885" />
+      <edge id="283" source="cell" target="news" weight="0.17462751269340515" />
+      <edge id="284" source="cell" target="disease" weight="0.15929438173770905" />
+      <edge id="285" source="cell" target="drug" weight="0.141503244638443" />
+      <edge id="286" source="cell" target="candidate" weight="0.14349347352981567" />
+      <edge id="287" source="cell" target="mind" weight="0.15817658603191376" />
+      <edge id="288" source="cell" target="plan" weight="0.14832434058189392" />
+      <edge id="289" source="wife" target="smoke" weight="0.23658281564712524" />
+      <edge id="290" source="wife" target="talk" weight="0.19111110270023346" />
+      <edge id="291" source="wife" target="disease" weight="0.18476605415344238" />
+      <edge id="292" source="wife" target="valve" weight="0.18366193771362305" />
+      <edge id="293" source="wife" target="husband" weight="0.1690438985824585" />
+      <edge id="294" source="wife" target="issue" weight="0.15884964168071747" />
+      <edge id="295" source="wife" target="asthma" weight="0.15749143064022064" />
+      <edge id="296" source="wife" target="search" weight="0.13633297383785248" />
+      <edge id="297" source="wife" target="bronchiectasis" weight="0.11985120922327042" />
+      <edge id="298" source="talk" target="fibrosis" weight="0.21071001887321472" />
+      <edge id="299" source="talk" target="scam" weight="0.20982447266578674" />
+      <edge id="300" source="talk" target="week" weight="0.1956450492143631" />
+      <edge id="301" source="talk" target="list" weight="0.1928175687789917" />
+      <edge id="302" source="talk" target="rate" weight="0.16343943774700165" />
+      <edge id="303" source="talk" target="company" weight="0.16240140795707703" />
+      <edge id="304" source="talk" target="researcher" weight="0.15690156817436218" />
+      <edge id="305" source="talk" target="fda" weight="0.1555314064025879" />
+      <edge id="306" source="talk" target="mother" weight="0.1311614215373993" />
+      <edge id="307" source="talk" target="problem" weight="0.15280628204345703" />
+      <edge id="308" source="process" target="help" weight="0.20087575912475586" />
+      <edge id="309" source="process" target="development" weight="0.16525304317474365" />
+      <edge id="310" source="process" target="magdalena" weight="0.1504591852426529" />
+      <edge id="311" source="process" target="candidate" weight="0.14854946732521057" />
+      <edge id="312" source="process" target="u" weight="0.13879692554473877" />
+      <edge id="313" source="process" target="patient" weight="0.1373443305492401" />
+      <edge id="314" source="process" target="time" weight="0.1351465880870819" />
+      <edge id="315" source="process" target="rate" weight="0.12423403561115265" />
+      <edge id="316" source="transplant" target="lady" weight="0.2039317637681961" />
+      <edge id="317" source="transplant" target="stage" weight="0.18679887056350708" />
+      <edge id="318" source="transplant" target="cure" weight="0.18272393941879272" />
+      <edge id="319" source="transplant" target="tissue" weight="0.16394254565238953" />
+      <edge id="320" source="transplant" target="hand" weight="0.1574295312166214" />
+      <edge id="321" source="transplant" target="bronchitis" weight="0.15689235925674438" />
+      <edge id="322" source="transplant" target="experience" weight="0.1567280888557434" />
+      <edge id="323" source="transplant" target="success" weight="0.15620945394039154" />
+      <edge id="324" source="transplant" target="try" weight="0.1114920899271965" />
+      <edge id="325" source="transplant" target="need" weight="0.14962153136730194" />
+      <edge id="326" source="try" target="valve" weight="0.17737886309623718" />
+      <edge id="327" source="try" target="response" weight="0.1671450138092041" />
+      <edge id="328" source="try" target="rate" weight="0.1496293544769287" />
+      <edge id="329" source="try" target="month" weight="0.14792141318321228" />
+      <edge id="330" source="try" target="treat" weight="0.14395323395729065" />
+      <edge id="331" source="try" target="trail" weight="0.12796294689178467" />
+      <edge id="332" source="try" target="yrs" weight="0.10302794724702835" />
+      <edge id="333" source="try" target="question" weight="0.09965162724256516" />
+      <edge id="334" source="try" target="symptom" weight="0.09266452491283417" />
+      <edge id="335" source="try" target="volunteer" weight="0.08931005001068115" />
+      <edge id="336" source="day" target="effect" weight="0.21502874791622162" />
+      <edge id="337" source="day" target="check" weight="0.19955146312713623" />
+      <edge id="338" source="day" target="chance" weight="0.1797548532485962" />
+      <edge id="339" source="day" target="institute" weight="0.17642013728618622" />
+      <edge id="340" source="day" target="cure" weight="0.17613694071769714" />
+      <edge id="341" source="day" target="approval" weight="0.16742561757564545" />
+      <edge id="342" source="day" target="risk" weight="0.1673867106437683" />
+      <edge id="343" source="day" target="drug" weight="0.1627766489982605" />
+      <edge id="344" source="day" target="matter" weight="0.1282784342765808" />
+      <edge id="345" source="day" target="bear" weight="0.16057899594306946" />
+      <edge id="346" source="day" target="clinic" weight="0.13290992379188538" />
+      <edge id="347" source="list" target="home" weight="0.2342761754989624" />
+      <edge id="348" source="list" target="plan" weight="0.21357019245624542" />
+      <edge id="349" source="list" target="bone" weight="0.20932725071907043" />
+      <edge id="350" source="list" target="week" weight="0.20082531869411469" />
+      <edge id="351" source="list" target="condition" weight="0.19039401412010193" />
+      <edge id="352" source="list" target="effect" weight="0.17960354685783386" />
+      <edge id="353" source="list" target="level" weight="0.17582836747169495" />
+      <edge id="354" source="list" target="opinion" weight="0.14142805337905884" />
+      <edge id="355" source="list" target="greed" weight="0.1285465508699417" />
+      <edge id="356" source="list" target="medicine" weight="0.15842220187187195" />
+      <edge id="357" source="need" target="doctor" weight="0.21608157455921173" />
+      <edge id="358" source="need" target="evaluation" weight="0.19006285071372986" />
+      <edge id="359" source="need" target="oxygen" weight="0.17580503225326538" />
+      <edge id="360" source="need" target="case" weight="0.17414388060569763" />
+      <edge id="361" source="need" target="drug" weight="0.16799572110176086" />
+      <edge id="362" source="need" target="survival" weight="0.16691774129867554" />
+      <edge id="363" source="need" target="reduction" weight="0.15535016357898712" />
+      <edge id="364" source="need" target="article" weight="0.14665567874908447" />
+      <edge id="365" source="rehab" target="lot" weight="0.21488884091377258" />
+      <edge id="366" source="rehab" target="way" weight="0.20262940227985382" />
+      <edge id="367" source="rehab" target="mother" weight="0.19436924159526825" />
+      <edge id="368" source="rehab" target="answer" weight="0.18324317038059235" />
+      <edge id="369" source="rehab" target="age" weight="0.1771351397037506" />
+      <edge id="370" source="rehab" target="north" weight="0.1531108170747757" />
+      <edge id="371" source="rehab" target="news" weight="0.15256358683109283" />
+      <edge id="372" source="rehab" target="florida" weight="0.13824714720249176" />
+      <edge id="373" source="rehab" target="opinion" weight="0.1374804675579071" />
+      <edge id="374" source="rehab" target="volunteer" weight="0.11911085993051529" />
+      <edge id="375" source="rehab" target="portion" weight="0.13271339237689972" />
+      <edge id="376" source="program" target="matter" weight="0.18272411823272705" />
+      <edge id="377" source="program" target="patient" weight="0.1650085598230362" />
+      <edge id="378" source="program" target="group" weight="0.15493299067020416" />
+      <edge id="379" source="program" target="fibrosis" weight="0.15489880740642548" />
+      <edge id="380" source="program" target="candidate" weight="0.14842349290847778" />
+      <edge id="381" source="program" target="hand" weight="0.14234575629234314" />
+      <edge id="382" source="program" target="time" weight="0.13606910407543182" />
+      <edge id="383" source="program" target="evaluation" weight="0.13505080342292786" />
+      <edge id="384" source="program" target="air" weight="0.13434267044067383" />
+      <edge id="385" source="program" target="rest" weight="0.12931102514266968" />
+      <edge id="386" source="exercise" target="treat" weight="0.2372276782989502" />
+      <edge id="387" source="exercise" target="hear" weight="0.19850388169288635" />
+      <edge id="388" source="exercise" target="evaluation" weight="0.19528718292713165" />
+      <edge id="389" source="exercise" target="researcher" weight="0.1726635992527008" />
+      <edge id="390" source="exercise" target="area" weight="0.152586430311203" />
+      <edge id="391" source="exercise" target="scam" weight="0.1491418182849884" />
+      <edge id="392" source="exercise" target="week" weight="0.14907029271125793" />
+      <edge id="393" source="exercise" target="effect" weight="0.1470370590686798" />
+      <edge id="394" source="exercise" target="fda" weight="0.14423081278800964" />
+      <edge id="395" source="exercise" target="dollar" weight="0.13891202211380005" />
+      <edge id="396" source="exercise" target="mark" weight="0.1344720870256424" />
+      <edge id="397" source="doctor" target="smoke" weight="0.19958943128585815" />
+      <edge id="398" source="doctor" target="contact" weight="0.19411695003509521" />
+      <edge id="399" source="doctor" target="magdalena" weight="0.1900060921907425" />
+      <edge id="400" source="doctor" target="air" weight="0.17324617505073547" />
+      <edge id="401" source="doctor" target="walk" weight="0.16332179307937622" />
+      <edge id="402" source="doctor" target="information" weight="0.15788744390010834" />
+      <edge id="403" source="doctor" target="oxygen" weight="0.15631422400474548" />
+      <edge id="404" source="doctor" target="stuff" weight="0.1517927497625351" />
+      <edge id="405" source="doctor" target="check" weight="0.15060922503471375" />
+      <edge id="406" source="doctor" target="ken" weight="0.12407368421554565" />
+      <edge id="407" source="doctor" target="participant" weight="0.1472932994365692" />
+      <edge id="408" source="month" target="diagnose" weight="0.2159690260887146" />
+      <edge id="409" source="month" target="oxygen" weight="0.18603602051734924" />
+      <edge id="410" source="month" target="end" weight="0.18300315737724304" />
+      <edge id="411" source="month" target="community" weight="0.17571522295475006" />
+      <edge id="412" source="month" target="trail" weight="0.16976365447044373" />
+      <edge id="413" source="month" target="university" weight="0.16279448568820953" />
+      <edge id="414" source="month" target="research" weight="0.15442824363708496" />
+      <edge id="415" source="month" target="experience" weight="0.1533079892396927" />
+      <edge id="416" source="month" target="check" weight="0.14600589871406555" />
+      <edge id="417" source="month" target="family" weight="0.13962531089782715" />
+      <edge id="418" source="month" target="person" weight="0.12901276350021362" />
+      <edge id="419" source="time" target="community" weight="0.22108720242977142" />
+      <edge id="420" source="time" target="oxygen" weight="0.210221529006958" />
+      <edge id="421" source="time" target="breath" weight="0.17868506908416748" />
+      <edge id="422" source="time" target="clinic" weight="0.17398583889007568" />
+      <edge id="423" source="time" target="wonder" weight="0.17228320240974426" />
+      <edge id="424" source="time" target="prayer" weight="0.15113674104213715" />
+      <edge id="425" source="time" target="info" weight="0.12022921442985535" />
+      <edge id="426" source="experience" target="repeat" weight="0.18927901983261108" />
+      <edge id="427" source="experience" target="carolina" weight="0.1806449592113495" />
+      <edge id="428" source="experience" target="breath" weight="0.17732438445091248" />
+      <edge id="429" source="experience" target="trial" weight="0.17063051462173462" />
+      <edge id="430" source="experience" target="wonder" weight="0.16485008597373962" />
+      <edge id="431" source="experience" target="participant" weight="0.152834951877594" />
+      <edge id="432" source="experience" target="n’t" weight="0.14538729190826416" />
+      <edge id="433" source="experience" target="medicine" weight="0.10280776023864746" />
+      <edge id="434" source="heart" target="physician" weight="0.1691756546497345" />
+      <edge id="435" source="heart" target="page" weight="0.16665910184383392" />
+      <edge id="436" source="heart" target="hospital" weight="0.15832149982452393" />
+      <edge id="437" source="heart" target="contact" weight="0.15035222470760345" />
+      <edge id="438" source="heart" target="week" weight="0.14713723957538605" />
+      <edge id="439" source="heart" target="level" weight="0.14371612668037415" />
+      <edge id="440" source="heart" target="tissue" weight="0.1426757574081421" />
+      <edge id="441" source="heart" target="drug" weight="0.14064384996891022" />
+      <edge id="442" source="heart" target="sign" weight="0.13959136605262756" />
+      <edge id="443" source="heart" target="check" weight="0.13410630822181702" />
+      <edge id="444" source="heart" target="barnes" weight="0.13347375392913818" />
+      <edge id="445" source="heart" target="greed" weight="0.12639552354812622" />
+      <edge id="446" source="diagnose" target="help" weight="0.3121916353702545" />
+      <edge id="447" source="diagnose" target="week" weight="0.281685471534729" />
+      <edge id="448" source="diagnose" target="symptom" weight="0.2499541938304901" />
+      <edge id="449" source="diagnose" target="florida" weight="0.2307710349559784" />
+      <edge id="450" source="diagnose" target="article" weight="0.2131122648715973" />
+      <edge id="451" source="diagnose" target="chance" weight="0.20523253083229065" />
+      <edge id="452" source="diagnose" target="contact" weight="0.19310231506824493" />
+      <edge id="453" source="diagnose" target="information" weight="0.17913872003555298" />
+      <edge id="454" source="diagnose" target="valve" weight="0.18350154161453247" />
+      <edge id="455" source="diagnose" target="inhaler" weight="0.16275009512901306" />
+      <edge id="456" source="diagnose" target="function" weight="0.17110975086688995" />
+      <edge id="457" source="diagnose" target="matter" weight="0.12597860395908356" />
+      <edge id="458" source="diagnose" target="tissue" weight="0.13963890075683594" />
+      <edge id="459" source="travel" target="research" weight="0.18863803148269653" />
+      <edge id="460" source="travel" target="hope" weight="0.16410821676254272" />
+      <edge id="461" source="travel" target="company" weight="0.1611698418855667" />
+      <edge id="462" source="travel" target="risk" weight="0.1534418761730194" />
+      <edge id="463" source="travel" target="follow" weight="0.15118947625160217" />
+      <edge id="464" source="travel" target="family" weight="0.1339835822582245" />
+      <edge id="465" source="travel" target="rest" weight="0.1280006468296051" />
+      <edge id="466" source="travel" target="rate" weight="0.1268448680639267" />
+      <edge id="467" source="travel" target="nc" weight="0.1266186684370041" />
+      <edge id="468" source="travel" target="response" weight="0.12139102816581726" />
+      <edge id="469" source="physician" target="bone" weight="0.19800050556659698" />
+      <edge id="470" source="physician" target="week" weight="0.19186732172966003" />
+      <edge id="471" source="physician" target="medication" weight="0.17248457670211792" />
+      <edge id="472" source="physician" target="care" weight="0.17086255550384521" />
+      <edge id="473" source="physician" target="function" weight="0.16542214155197144" />
+      <edge id="474" source="physician" target="hospital" weight="0.16438786685466766" />
+      <edge id="475" source="physician" target="pulmonologist" weight="0.16404202580451965" />
+      <edge id="476" source="physician" target="way" weight="0.15980789065361023" />
+      <edge id="477" source="physician" target="procedure" weight="0.15027782320976257" />
+      <edge id="478" source="physician" target="smoker" weight="0.1433122605085373" />
+      <edge id="479" source="physician" target="offer" weight="0.1175985187292099" />
+      <edge id="480" source="check" target="oxygen" weight="0.16623327136039734" />
+      <edge id="481" source="check" target="emphysema" weight="0.14972138404846191" />
+      <edge id="482" source="check" target="walk" weight="0.1447339504957199" />
+      <edge id="483" source="check" target="share" weight="0.1332603096961975" />
+      <edge id="484" source="check" target="level" weight="0.12551507353782654" />
+      <edge id="485" source="check" target="treat" weight="0.12370915710926056" />
+      <edge id="486" source="family" target="company" weight="0.1877223253250122" />
+      <edge id="487" source="family" target="dollar" weight="0.17973750829696655" />
+      <edge id="488" source="family" target="week" weight="0.17851009964942932" />
+      <edge id="489" source="family" target="participate" weight="0.17692643404006958" />
+      <edge id="490" source="family" target="development" weight="0.17406561970710754" />
+      <edge id="491" source="family" target="symptom" weight="0.15370503067970276" />
+      <edge id="492" source="family" target="report" weight="0.14225511252880096" />
+      <edge id="493" source="family" target="fibrosis" weight="0.1376136690378189" />
+      <edge id="494" source="family" target="husband" weight="0.13399088382720947" />
+      <edge id="495" source="friend" target="carolina" weight="0.1913473904132843" />
+      <edge id="496" source="friend" target="husband" weight="0.18726447224617004" />
+      <edge id="497" source="friend" target="researcher" weight="0.15177980065345764" />
+      <edge id="498" source="friend" target="inhaler" weight="0.12944206595420837" />
+      <edge id="499" source="friend" target="week" weight="0.12904806435108185" />
+      <edge id="500" source="friend" target="ken" weight="0.12699678540229797" />
+      <edge id="501" source="friend" target="asthma" weight="0.12580309808254242" />
+      <edge id="502" source="friend" target="fda" weight="0.12238037586212158" />
+      <edge id="503" source="friend" target="share" weight="0.12099723517894745" />
+      <edge id="504" source="friend" target="valve" weight="0.12062643468379974" />
+      <edge id="505" source="help" target="article" weight="0.20478761196136475" />
+      <edge id="506" source="help" target="stage" weight="0.1996093988418579" />
+      <edge id="507" source="help" target="share" weight="0.197409987449646" />
+      <edge id="508" source="help" target="function" weight="0.17181015014648438" />
+      <edge id="509" source="help" target="community" weight="0.16003115475177765" />
+      <edge id="510" source="help" target="patient" weight="0.15527883172035217" />
+      <edge id="511" source="help" target="hope" weight="0.14903594553470612" />
+      <edge id="512" source="help" target="greed" weight="0.13393163681030273" />
+      <edge id="513" source="help" target="medicare" weight="0.12774524092674255" />
+      <edge id="514" source="help" target="email" weight="0.1480596512556076" />
+      <edge id="515" source="people" target="information" weight="0.18447402119636536" />
+      <edge id="516" source="people" target="university" weight="0.17752239108085632" />
+      <edge id="517" source="people" target="therapy" weight="0.17212340235710144" />
+      <edge id="518" source="people" target="end" weight="0.16962113976478577" />
+      <edge id="519" source="people" target="flow" weight="0.1691889464855194" />
+      <edge id="520" source="people" target="bone" weight="0.15846897661685944" />
+      <edge id="521" source="people" target="institute" weight="0.15639612078666687" />
+      <edge id="522" source="people" target="share" weight="0.1563188135623932" />
+      <edge id="523" source="people" target="place" weight="0.15391114354133606" />
+      <edge id="524" source="people" target="husband" weight="0.13811227679252625" />
+      <edge id="525" source="people" target="benefit" weight="0.13575701415538788" />
+      <edge id="526" source="people" target="dollar" weight="0.1375693380832672" />
+      <edge id="527" source="disease" target="place" weight="0.3031889498233795" />
+      <edge id="528" source="disease" target="bone" weight="0.21505147218704224" />
+      <edge id="529" source="disease" target="function" weight="0.20950531959533691" />
+      <edge id="530" source="disease" target="patient" weight="0.19392086565494537" />
+      <edge id="531" source="disease" target="north" weight="0.18513943254947662" />
+      <edge id="532" source="disease" target="website" weight="0.12633556127548218" />
+      <edge id="533" source="disease" target="report" weight="0.15640854835510254" />
+      <edge id="534" source="disease" target="institute" weight="0.1720467507839203" />
+      <edge id="535" source="disease" target="rest" weight="0.1633586883544922" />
+      <edge id="536" source="disease" target="hospital" weight="0.17068122327327728" />
+      <edge id="537" source="disease" target="stuff" weight="0.14047011733055115" />
+      <edge id="538" source="disease" target="condition" weight="0.14549238979816437" />
+      <edge id="539" source="disease" target="follow" weight="0.12636691331863403" />
+      <edge id="540" source="disease" target="benefit" weight="0.1435662806034088" />
+      <edge id="541" source="disease" target="smoke" weight="0.178169846534729" />
+      <edge id="542" source="disease" target="community" weight="0.16537560522556305" />
+      <edge id="543" source="disease" target="repeat" weight="0.15326529741287231" />
+      <edge id="544" source="disease" target="university" weight="0.1557846963405609" />
+      <edge id="545" source="disease" target="portion" weight="0.1765531599521637" />
+      <edge id="546" source="person" target="course" weight="0.19283999502658844" />
+      <edge id="547" source="person" target="age" weight="0.18017719686031342" />
+      <edge id="548" source="person" target="emphysema" weight="0.1512262225151062" />
+      <edge id="549" source="person" target="research" weight="0.14930568635463715" />
+      <edge id="550" source="person" target="hope" weight="0.14222729206085205" />
+      <edge id="551" source="person" target="medication" weight="0.13268204033374786" />
+      <edge id="552" source="person" target="trail" weight="0.12905073165893555" />
+      <edge id="553" source="person" target="place" weight="0.12085112929344177" />
+      <edge id="554" source="person" target="therapy" weight="0.11913209408521652" />
+      <edge id="555" source="person" target="volunteer" weight="0.11667505651712418" />
+      <edge id="556" source="chance" target="lady" weight="0.2479586899280548" />
+      <edge id="557" source="chance" target="bronchitis" weight="0.24356797337532043" />
+      <edge id="558" source="chance" target="fda" weight="0.22743132710456848" />
+      <edge id="559" source="chance" target="week" weight="0.20375201106071472" />
+      <edge id="560" source="chance" target="stage" weight="0.20372730493545532" />
+      <edge id="561" source="chance" target="stuff" weight="0.13346008956432343" />
+      <edge id="562" source="chance" target="tcm" weight="0.1680709421634674" />
+      <edge id="563" source="chance" target="mind" weight="0.12809191644191742" />
+      <edge id="564" source="chance" target="course" weight="0.14397679269313812" />
+      <edge id="565" source="chance" target="bear" weight="0.13197576999664307" />
+      <edge id="566" source="chance" target="flow" weight="0.14261651039123535" />
+      <edge id="567" source="chance" target="plan" weight="0.17389410734176636" />
+      <edge id="568" source="success" target="evaluation" weight="0.22689129412174225" />
+      <edge id="569" source="success" target="case" weight="0.1719401329755783" />
+      <edge id="570" source="success" target="love" weight="0.17141863703727722" />
+      <edge id="571" source="success" target="rate" weight="0.15750396251678467" />
+      <edge id="572" source="success" target="bone" weight="0.1483570635318756" />
+      <edge id="573" source="success" target="week" weight="0.14401721954345703" />
+      <edge id="574" source="success" target="approval" weight="0.1435163915157318" />
+      <edge id="575" source="success" target="search" weight="0.1369367092847824" />
+      <edge id="576" source="success" target="offer" weight="0.11625787615776062" />
+      <edge id="577" source="trial" target="carolina" weight="0.21605893969535828" />
+      <edge id="578" source="trial" target="home" weight="0.19109179079532623" />
+      <edge id="579" source="trial" target="work" weight="0.15910111367702484" />
+      <edge id="580" source="trial" target="way" weight="0.15111832320690155" />
+      <edge id="581" source="trial" target="repeat" weight="0.14453163743019104" />
+      <edge id="582" source="trial" target="bronchitis" weight="0.12492628395557404" />
+      <edge id="583" source="research" target="hope" weight="0.18897035717964172" />
+      <edge id="584" source="research" target="age" weight="0.17190217971801758" />
+      <edge id="585" source="research" target="group" weight="0.16066789627075195" />
+      <edge id="586" source="research" target="ken" weight="0.15051445364952087" />
+      <edge id="587" source="research" target="test" weight="0.14967644214630127" />
+      <edge id="588" source="research" target="end" weight="0.1425783336162567" />
+      <edge id="589" source="research" target="lot" weight="0.139297753572464" />
+      <edge id="590" source="website" target="place" weight="0.18250823020935059" />
+      <edge id="591" source="website" target="information" weight="0.17545652389526367" />
+      <edge id="592" source="website" target="candidate" weight="0.14340922236442566" />
+      <edge id="593" source="website" target="love" weight="0.138230562210083" />
+      <edge id="594" source="website" target="issue" weight="0.13620896637439728" />
+      <edge id="595" source="website" target="asthma" weight="0.12306699901819229" />
+      <edge id="596" source="evaluation" target="fibrosis" weight="0.23214907944202423" />
+      <edge id="597" source="evaluation" target="rate" weight="0.20700646936893463" />
+      <edge id="598" source="evaluation" target="case" weight="0.19962339103221893" />
+      <edge id="599" source="evaluation" target="breath" weight="0.19620725512504578" />
+      <edge id="600" source="evaluation" target="week" weight="0.19345922768115997" />
+      <edge id="601" source="evaluation" target="lot" weight="0.15330970287322998" />
+      <edge id="602" source="evaluation" target="search" weight="0.15510332584381104" />
+      <edge id="603" source="evaluation" target="stuff" weight="0.13933855295181274" />
+      <edge id="604" source="evaluation" target="answer" weight="0.18446269631385803" />
+      <edge id="605" source="test" target="information" weight="0.20177610218524933" />
+      <edge id="606" source="test" target="valve" weight="0.17991578578948975" />
+      <edge id="607" source="test" target="florida" weight="0.1783069372177124" />
+      <edge id="608" source="test" target="carolina" weight="0.17818307876586914" />
+      <edge id="609" source="test" target="benefit" weight="0.1593225598335266" />
+      <edge id="610" source="test" target="effect" weight="0.1591390073299408" />
+      <edge id="611" source="test" target="contact" weight="0.1558244526386261" />
+      <edge id="612" source="test" target="nc" weight="0.15094178915023804" />
+      <edge id="613" source="test" target="survival" weight="0.14985564351081848" />
+      <edge id="614" source="information" target="smoke" weight="0.22418050467967987" />
+      <edge id="615" source="information" target="therapy" weight="0.1958979070186615" />
+      <edge id="616" source="information" target="u" weight="0.1892884522676468" />
+      <edge id="617" source="information" target="sign" weight="0.18662554025650024" />
+      <edge id="618" source="information" target="condition" weight="0.1696232706308365" />
+      <edge id="619" source="information" target="home" weight="0.16653627157211304" />
+      <edge id="620" source="information" target="report" weight="0.1460062861442566" />
+      <edge id="621" source="information" target="bronchitis" weight="0.14365550875663757" />
+      <edge id="622" source="information" target="barnes" weight="0.12239550799131393" />
+      <edge id="623" source="information" target="medicine" weight="0.11636509001255035" />
+      <edge id="624" source="information" target="yrs" weight="0.14438490569591522" />
+      <edge id="625" source="report" target="fda" weight="0.21410919725894928" />
+      <edge id="626" source="report" target="problem" weight="0.1966988742351532" />
+      <edge id="627" source="report" target="patient" weight="0.16073977947235107" />
+      <edge id="628" source="report" target="money" weight="0.1512579768896103" />
+      <edge id="629" source="report" target="florida" weight="0.14515909552574158" />
+      <edge id="630" source="report" target="surgery" weight="0.13885080814361572" />
+      <edge id="631" source="lot" target="cure" weight="0.23868852853775024" />
+      <edge id="632" source="lot" target="money" weight="0.20678262412548065" />
+      <edge id="633" source="lot" target="article" weight="0.16766586899757385" />
+      <edge id="634" source="lot" target="response" weight="0.16225382685661316" />
+      <edge id="635" source="lot" target="medicare" weight="0.1371203511953354" />
+      <edge id="636" source="institute" target="cure" weight="0.2501715421676636" />
+      <edge id="637" source="institute" target="sign" weight="0.20479106903076172" />
+      <edge id="638" source="institute" target="breath" weight="0.19320395588874817" />
+      <edge id="639" source="institute" target="hope" weight="0.18567126989364624" />
+      <edge id="640" source="institute" target="north" weight="0.18178868293762207" />
+      <edge id="641" source="institute" target="age" weight="0.17749056220054626" />
+      <edge id="642" source="institute" target="bone" weight="0.1653212010860443" />
+      <edge id="643" source="institute" target="husband" weight="0.16033652424812317" />
+      <edge id="644" source="institute" target="reduction" weight="0.1436278522014618" />
+      <edge id="645" source="institute" target="repeat" weight="0.1534828096628189" />
+      <edge id="646" source="drug" target="reduction" weight="0.16328275203704834" />
+      <edge id="647" source="drug" target="approval" weight="0.16156607866287231" />
+      <edge id="648" source="drug" target="wonder" weight="0.1583387553691864" />
+      <edge id="649" source="drug" target="damage" weight="0.15734468400478363" />
+      <edge id="650" source="drug" target="participate" weight="0.14350637793540955" />
+      <edge id="651" source="drug" target="hear" weight="0.13006846606731415" />
+      <edge id="652" source="drug" target="end" weight="0.13558465242385864" />
+      <edge id="653" source="rest" target="course" weight="0.16262702643871307" />
+      <edge id="654" source="rest" target="carolina" weight="0.16198913753032684" />
+      <edge id="655" source="rest" target="pulmonologist" weight="0.14962024986743927" />
+      <edge id="656" source="rest" target="university" weight="0.14016485214233398" />
+      <edge id="657" source="rest" target="patient" weight="0.13798241317272186" />
+      <edge id="658" source="rest" target="u" weight="0.13270540535449982" />
+      <edge id="659" source="rest" target="treat" weight="0.1311519891023636" />
+      <edge id="660" source="post" target="magdalena" weight="0.19400645792484283" />
+      <edge id="661" source="post" target="question" weight="0.16106870770454407" />
+      <edge id="662" source="post" target="university" weight="0.14618469774723053" />
+      <edge id="663" source="post" target="dollar" weight="0.1372007131576538" />
+      <edge id="664" source="post" target="breath" weight="0.13102573156356812" />
+      <edge id="665" source="post" target="fibrosis" weight="0.12932701408863068" />
+      <edge id="666" source="post" target="ken" weight="0.1276029348373413" />
+      <edge id="667" source="issue" target="clinic" weight="0.2317097932100296" />
+      <edge id="668" source="issue" target="love" weight="0.18766933679580688" />
+      <edge id="669" source="issue" target="flow" weight="0.17455364763736725" />
+      <edge id="670" source="issue" target="procedure" weight="0.1415885090827942" />
+      <edge id="671" source="issue" target="article" weight="0.1396946758031845" />
+      <edge id="672" source="issue" target="news" weight="0.130083367228508" />
+      <edge id="673" source="issue" target="matter" weight="0.1260550320148468" />
+      <edge id="674" source="cure" target="plan" weight="0.21469905972480774" />
+      <edge id="675" source="cure" target="company" weight="0.20978441834449768" />
+      <edge id="676" source="cure" target="week" weight="0.2028956413269043" />
+      <edge id="677" source="cure" target="university" weight="0.2021789401769638" />
+      <edge id="678" source="cure" target="matter" weight="0.20126469433307648" />
+      <edge id="679" source="cure" target="yrs" weight="0.1787903904914856" />
+      <edge id="680" source="cure" target="work" weight="0.1745702475309372" />
+      <edge id="681" source="cure" target="area" weight="0.17870654165744781" />
+      <edge id="682" source="cure" target="care" weight="0.16032838821411133" />
+      <edge id="683" source="cure" target="response" weight="0.11288437247276306" />
+      <edge id="684" source="cure" target="bronchiectasis" weight="0.14090238511562347" />
+      <edge id="685" source="contact" target="bone" weight="0.2594503164291382" />
+      <edge id="686" source="contact" target="repeat" weight="0.20645909011363983" />
+      <edge id="687" source="contact" target="end" weight="0.18441280722618103" />
+      <edge id="688" source="contact" target="smoke" weight="0.1778564602136612" />
+      <edge id="689" source="contact" target="florida" weight="0.1713283509016037" />
+      <edge id="690" source="contact" target="participate" weight="0.1694526970386505" />
+      <edge id="691" source="contact" target="procedure" weight="0.14922258257865906" />
+      <edge id="692" source="contact" target="development" weight="0.13415393233299255" />
+      <edge id="693" source="contact" target="greed" weight="0.14921899139881134" />
+      <edge id="694" source="contact" target="yrs" weight="0.15335845947265625" />
+      <edge id="695" source="contact" target="info" weight="0.14931820333003998" />
+      <edge id="696" source="contact" target="ken" weight="0.15505670011043549" />
+      <edge id="697" source="contact" target="tissue" weight="0.1654818058013916" />
+      <edge id="698" source="contact" target="email" weight="0.13658201694488525" />
+      <edge id="699" source="hospital" target="magdalena" weight="0.1926337480545044" />
+      <edge id="700" source="hospital" target="age" weight="0.18993116915225983" />
+      <edge id="701" source="hospital" target="company" weight="0.17794272303581238" />
+      <edge id="702" source="hospital" target="case" weight="0.1767381876707077" />
+      <edge id="703" source="hospital" target="week" weight="0.16928617656230927" />
+      <edge id="704" source="hospital" target="breathing" weight="0.13339205086231232" />
+      <edge id="705" source="hospital" target="hear" weight="0.12438604980707169" />
+      <edge id="706" source="hospital" target="trail" weight="0.1291176974773407" />
+      <edge id="707" source="hospital" target="participant" weight="0.16300395131111145" />
+      <edge id="708" source="medication" target="reason" weight="0.28083479404449463" />
+      <edge id="709" source="medication" target="fibrosis" weight="0.21842335164546967" />
+      <edge id="710" source="medication" target="company" weight="0.2036033421754837" />
+      <edge id="711" source="medication" target="answer" weight="0.20336030423641205" />
+      <edge id="712" source="medication" target="hope" weight="0.1929549276828766" />
+      <edge id="713" source="medication" target="fda" weight="0.17900782823562622" />
+      <edge id="714" source="medication" target="case" weight="0.17561115324497223" />
+      <edge id="715" source="medication" target="search" weight="0.17325207591056824" />
+      <edge id="716" source="medication" target="care" weight="0.15726542472839355" />
+      <edge id="717" source="medication" target="problem" weight="0.15249012410640717" />
+      <edge id="718" source="medication" target="mind" weight="0.1664973497390747" />
+      <edge id="719" source="medication" target="hand" weight="0.15481433272361755" />
+      <edge id="720" source="medication" target="group" weight="0.14163029193878174" />
+      <edge id="721" source="medication" target="clinic" weight="0.12637649476528168" />
+      <edge id="722" source="search" target="share" weight="0.21389977633953094" />
+      <edge id="723" source="search" target="fibrosis" weight="0.21357712149620056" />
+      <edge id="724" source="search" target="community" weight="0.1952877789735794" />
+      <edge id="725" source="search" target="care" weight="0.1748955249786377" />
+      <edge id="726" source="search" target="week" weight="0.14356586337089539" />
+      <edge id="727" source="search" target="mother" weight="0.1396128535270691" />
+      <edge id="728" source="search" target="follow" weight="0.13041388988494873" />
+      <edge id="729" source="bronchitis" target="smoke" weight="0.17144185304641724" />
+      <edge id="730" source="bronchitis" target="lady" weight="0.1535845398902893" />
+      <edge id="731" source="bronchitis" target="work" weight="0.14076732099056244" />
+      <edge id="732" source="bronchitis" target="tcm" weight="0.13610708713531494" />
+      <edge id="733" source="bronchitis" target="bronchiectasis" weight="0.12477558106184006" />
+      <edge id="734" source="oxygen" target="week" weight="0.22383426129817963" />
+      <edge id="735" source="oxygen" target="function" weight="0.21786732971668243" />
+      <edge id="736" source="oxygen" target="university" weight="0.19099269807338715" />
+      <edge id="737" source="oxygen" target="wonder" weight="0.17892079055309296" />
+      <edge id="738" source="oxygen" target="florida" weight="0.17215272784233093" />
+      <edge id="739" source="oxygen" target="area" weight="0.16977639496326447" />
+      <edge id="740" source="oxygen" target="rate" weight="0.16318142414093018" />
+      <edge id="741" source="work" target="hear" weight="0.17096154391765594" />
+      <edge id="742" source="work" target="university" weight="0.16810843348503113" />
+      <edge id="743" source="work" target="medicare" weight="0.1636917144060135" />
+      <edge id="744" source="work" target="way" weight="0.15750959515571594" />
+      <edge id="745" source="work" target="bronchiectasis" weight="0.1556684523820877" />
+      <edge id="746" source="work" target="case" weight="0.15535610914230347" />
+      <edge id="747" source="work" target="community" weight="0.15462985634803772" />
+      <edge id="748" source="work" target="problem" weight="0.15205082297325134" />
+      <edge id="749" source="work" target="surgery" weight="0.13460759818553925" />
+      <edge id="750" source="way" target="u" weight="0.1835210621356964" />
+      <edge id="751" source="way" target="bronchiectasis" weight="0.1584382951259613" />
+      <edge id="752" source="way" target="north" weight="0.14330774545669556" />
+      <edge id="753" source="way" target="damage" weight="0.1325535774230957" />
+      <edge id="754" source="way" target="news" weight="0.12778522074222565" />
+      <edge id="755" source="way" target="company" weight="0.12610343098640442" />
+      <edge id="756" source="way" target="volunteer" weight="0.12388935685157776" />
+      <edge id="757" source="breath" target="company" weight="0.22125986218452454" />
+      <edge id="758" source="breath" target="breathing" weight="0.2060907483100891" />
+      <edge id="759" source="breath" target="therapy" weight="0.19725708663463593" />
+      <edge id="760" source="breath" target="risk" weight="0.19288119673728943" />
+      <edge id="761" source="breath" target="question" weight="0.18126973509788513" />
+      <edge id="762" source="breath" target="tcm" weight="0.16086822748184204" />
+      <edge id="763" source="breath" target="u" weight="0.17171190679073334" />
+      <edge id="764" source="stage" target="email" weight="0.23878222703933716" />
+      <edge id="765" source="stage" target="course" weight="0.21272039413452148" />
+      <edge id="766" source="stage" target="end" weight="0.16507813334465027" />
+      <edge id="767" source="stage" target="nc" weight="0.16021785140037537" />
+      <edge id="768" source="stage" target="cost" weight="0.15756264328956604" />
+      <edge id="769" source="stage" target="group" weight="0.15676862001419067" />
+      <edge id="770" source="stage" target="share" weight="0.15447770059108734" />
+      <edge id="771" source="stage" target="inhaler" weight="0.12527284026145935" />
+      <edge id="772" source="florida" target="news" weight="0.18584008514881134" />
+      <edge id="773" source="florida" target="survival" weight="0.17824195325374603" />
+      <edge id="774" source="florida" target="week" weight="0.1759684681892395" />
+      <edge id="775" source="florida" target="effect" weight="0.17562127113342285" />
+      <edge id="776" source="florida" target="matter" weight="0.12338371574878693" />
+      <edge id="777" source="florida" target="plan" weight="0.14156225323677063" />
+      <edge id="778" source="florida" target="mark" weight="0.15316516160964966" />
+      <edge id="779" source="florida" target="symptom" weight="0.1570471227169037" />
+      <edge id="780" source="florida" target="carolina" weight="0.16127239167690277" />
+      <edge id="781" source="area" target="plan" weight="0.25312599539756775" />
+      <edge id="782" source="area" target="function" weight="0.20533311367034912" />
+      <edge id="783" source="area" target="week" weight="0.19141295552253723" />
+      <edge id="784" source="area" target="scam" weight="0.18592838943004608" />
+      <edge id="785" source="area" target="lady" weight="0.17342989146709442" />
+      <edge id="786" source="area" target="hear" weight="0.11901124566793442" />
+      <edge id="787" source="area" target="dollar" weight="0.14568455517292023" />
+      <edge id="788" source="nc" target="effect" weight="0.2547656297683716" />
+      <edge id="789" source="nc" target="cost" weight="0.2469462752342224" />
+      <edge id="790" source="nc" target="air" weight="0.20271098613739014" />
+      <edge id="791" source="nc" target="prayer" weight="0.2022741287946701" />
+      <edge id="792" source="nc" target="lady" weight="0.18184208869934082" />
+      <edge id="793" source="nc" target="magdalena" weight="0.17748087644577026" />
+      <edge id="794" source="nc" target="problem" weight="0.17254412174224854" />
+      <edge id="795" source="nc" target="share" weight="0.16672764718532562" />
+      <edge id="796" source="nc" target="pulmonologist" weight="0.15033109486103058" />
+      <edge id="797" source="mother" target="repeat" weight="0.1524311900138855" />
+      <edge id="798" source="mother" target="greed" weight="0.13695508241653442" />
+      <edge id="799" source="mother" target="answer" weight="0.13389240205287933" />
+      <edge id="800" source="mother" target="rate" weight="0.12859715521335602" />
+      <edge id="801" source="mother" target="offer" weight="0.10946404933929443" />
+      <edge id="802" source="mother" target="volunteer" weight="0.11876343935728073" />
+      <edge id="803" source="hope" target="n’t" weight="0.19012413918972015" />
+      <edge id="804" source="hope" target="emphysema" weight="0.17211757600307465" />
+      <edge id="805" source="hope" target="fda" weight="0.16868387162685394" />
+      <edge id="806" source="hope" target="week" weight="0.1577230542898178" />
+      <edge id="807" source="hope" target="son" weight="0.13358239829540253" />
+      <edge id="808" source="hope" target="breathing" weight="0.15416261553764343" />
+      <edge id="809" source="hope" target="matter" weight="0.12000459432601929" />
+      <edge id="810" source="hope" target="group" weight="0.1451905369758606" />
+      <edge id="811" source="scam" target="condition" weight="0.20200936496257782" />
+      <edge id="812" source="scam" target="function" weight="0.1519617885351181" />
+      <edge id="813" source="scam" target="son" weight="0.1489546000957489" />
+      <edge id="814" source="scam" target="fibrosis" weight="0.1390310674905777" />
+      <edge id="815" source="scam" target="researcher" weight="0.13025692105293274" />
+      <edge id="816" source="scam" target="rate" weight="0.12947393953800201" />
+      <edge id="817" source="age" target="n’t" weight="0.22411826252937317" />
+      <edge id="818" source="age" target="love" weight="0.17882192134857178" />
+      <edge id="819" source="age" target="asthma" weight="0.1725933849811554" />
+      <edge id="820" source="age" target="hear" weight="0.14956673979759216" />
+      <edge id="821" source="age" target="survival" weight="0.1657850742340088" />
+      <edge id="822" source="candidate" target="plan" weight="0.21109679341316223" />
+      <edge id="823" source="candidate" target="case" weight="0.1501220464706421" />
+      <edge id="824" source="candidate" target="husband" weight="0.1423124372959137" />
+      <edge id="825" source="candidate" target="portion" weight="0.13994935154914856" />
+      <edge id="826" source="candidate" target="walk" weight="0.13892439007759094" />
+      <edge id="827" source="candidate" target="development" weight="0.12453243136405945" />
+      <edge id="828" source="candidate" target="mark" weight="0.13265247642993927" />
+      <edge id="829" source="valve" target="place" weight="0.22635537385940552" />
+      <edge id="830" source="valve" target="n’t" weight="0.20138609409332275" />
+      <edge id="831" source="valve" target="news" weight="0.1914915144443512" />
+      <edge id="832" source="valve" target="survival" weight="0.19019657373428345" />
+      <edge id="833" source="valve" target="symptom" weight="0.1837214231491089" />
+      <edge id="834" source="valve" target="emphysema" weight="0.1628131866455078" />
+      <edge id="835" source="valve" target="breathing" weight="0.13422738015651703" />
+      <edge id="836" source="procedure" target="level" weight="0.17926742136478424" />
+      <edge id="837" source="procedure" target="reduction" weight="0.17722414433956146" />
+      <edge id="838" source="procedure" target="offer" weight="0.15719690918922424" />
+      <edge id="839" source="procedure" target="inhaler" weight="0.14950789511203766" />
+      <edge id="840" source="procedure" target="cost" weight="0.14018502831459045" />
+      <edge id="841" source="procedure" target="participate" weight="0.13774798810482025" />
+      <edge id="842" source="procedure" target="condition" weight="0.13110843300819397" />
+      <edge id="843" source="n’t" target="magdalena" weight="0.2341391146183014" />
+      <edge id="844" source="n’t" target="repeat" weight="0.18752416968345642" />
+      <edge id="845" source="n’t" target="sign" weight="0.18086569011211395" />
+      <edge id="846" source="n’t" target="tcm" weight="0.15515878796577454" />
+      <edge id="847" source="n’t" target="share" weight="0.14770668745040894" />
+      <edge id="848" source="n’t" target="participate" weight="0.13901598751544952" />
+      <edge id="849" source="lady" target="email" weight="0.1651364117860794" />
+      <edge id="850" source="lady" target="smoker" weight="0.15703147649765015" />
+      <edge id="851" source="lady" target="bear" weight="0.15531519055366516" />
+      <edge id="852" source="lady" target="love" weight="0.14201298356056213" />
+      <edge id="853" source="son" target="end" weight="0.23014992475509644" />
+      <edge id="854" source="son" target="participant" weight="0.17720454931259155" />
+      <edge id="855" source="son" target="greed" weight="0.1605052351951599" />
+      <edge id="856" source="son" target="carolina" weight="0.14662228524684906" />
+      <edge id="857" source="son" target="function" weight="0.14104503393173218" />
+      <edge id="858" source="son" target="tissue" weight="0.13860124349594116" />
+      <edge id="859" source="son" target="mark" weight="0.13574223220348358" />
+      <edge id="860" source="son" target="course" weight="0.1311074197292328" />
+      <edge id="861" source="son" target="volunteer" weight="0.08911500126123428" />
+      <edge id="862" source="walk" target="follow" weight="0.20117317140102386" />
+      <edge id="863" source="walk" target="development" weight="0.1663229614496231" />
+      <edge id="864" source="walk" target="medicine" weight="0.13005566596984863" />
+      <edge id="865" source="walk" target="fibrosis" weight="0.12311369180679321" />
+      <edge id="866" source="stuff" target="opinion" weight="0.15355339646339417" />
+      <edge id="867" source="stuff" target="researcher" weight="0.15176232159137726" />
+      <edge id="868" source="stuff" target="care" weight="0.14908185601234436" />
+      <edge id="869" source="stuff" target="repeat" weight="0.14253859221935272" />
+      <edge id="870" source="stuff" target="smoker" weight="0.11086690425872803" />
+      <edge id="871" source="care" target="news" weight="0.2113436460494995" />
+      <edge id="872" source="care" target="smoker" weight="0.18023543059825897" />
+      <edge id="873" source="care" target="home" weight="0.17791908979415894" />
+      <edge id="874" source="care" target="share" weight="0.17401936650276184" />
+      <edge id="875" source="care" target="fda" weight="0.1628953516483307" />
+      <edge id="876" source="care" target="article" weight="0.1509387493133545" />
+      <edge id="877" source="article" target="participate" weight="0.20533183217048645" />
+      <edge id="878" source="article" target="symptom" weight="0.18949225544929504" />
+      <edge id="879" source="article" target="cost" weight="0.17927250266075134" />
+      <edge id="880" source="article" target="greed" weight="0.17795783281326294" />
+      <edge id="881" source="article" target="carolina" weight="0.17591695487499237" />
+      <edge id="882" source="article" target="course" weight="0.13900072872638702" />
+      <edge id="883" source="article" target="matter" weight="0.14878109097480774" />
+      <edge id="884" source="article" target="air" weight="0.15972036123275757" />
+      <edge id="885" source="article" target="husband" weight="0.14530399441719055" />
+      <edge id="886" source="article" target="trail" weight="0.13831616938114166" />
+      <edge id="887" source="article" target="tissue" weight="0.15347030758857727" />
+      <edge id="888" source="article" target="portion" weight="0.16993460059165955" />
+      <edge id="889" source="article" target="email" weight="0.16746056079864502" />
+      <edge id="890" source="inhaler" target="level" weight="0.22517088055610657" />
+      <edge id="891" source="inhaler" target="smoker" weight="0.14379936456680298" />
+      <edge id="892" source="inhaler" target="prayer" weight="0.13422584533691406" />
+      <edge id="893" source="inhaler" target="clinic" weight="0.13354657590389252" />
+      <edge id="894" source="inhaler" target="info" weight="0.13247132301330566" />
+      <edge id="895" source="inhaler" target="volunteer" weight="0.09783735871315002" />
+      <edge id="896" source="news" target="company" weight="0.17958727478981018" />
+      <edge id="897" source="news" target="researcher" weight="0.17581821978092194" />
+      <edge id="898" source="news" target="mark" weight="0.1738501340150833" />
+      <edge id="899" source="news" target="fda" weight="0.16866391897201538" />
+      <edge id="900" source="news" target="bone" weight="0.16468046605587006" />
+      <edge id="901" source="news" target="opinion" weight="0.12361285090446472" />
+      <edge id="902" source="news" target="therapy" weight="0.1464201807975769" />
+      <edge id="903" source="news" target="mind" weight="0.15453268587589264" />
+      <edge id="904" source="news" target="symptom" weight="0.16293440759181976" />
+      <edge id="905" source="opinion" target="response" weight="0.1622713804244995" />
+      <edge id="906" source="opinion" target="info" weight="0.12498000264167786" />
+      <edge id="907" source="opinion" target="medicine" weight="0.11986368894577026" />
+      <edge id="908" source="opinion" target="damage" weight="0.11927531659603119" />
+      <edge id="909" source="opinion" target="greed" weight="0.11768016964197159" />
+      <edge id="910" source="breathing" target="trail" weight="0.19067594408988953" />
+      <edge id="911" source="breathing" target="patient" weight="0.1624927967786789" />
+      <edge id="912" source="breathing" target="share" weight="0.16100364923477173" />
+      <edge id="913" source="breathing" target="yrs" weight="0.14837315678596497" />
+      <edge id="914" source="breathing" target="money" weight="0.13684433698654175" />
+      <edge id="915" source="problem" target="fda" weight="0.18108761310577393" />
+      <edge id="916" source="problem" target="patient" weight="0.17406970262527466" />
+      <edge id="917" source="problem" target="magdalena" weight="0.16200917959213257" />
+      <edge id="918" source="problem" target="bone" weight="0.15824803709983826" />
+      <edge id="919" source="problem" target="asthma" weight="0.13648159801959991" />
+      <edge id="920" source="fibrosis" target="case" weight="0.2182503342628479" />
+      <edge id="921" source="fibrosis" target="community" weight="0.2124394178390503" />
+      <edge id="922" source="fibrosis" target="dollar" weight="0.16079966723918915" />
+      <edge id="923" source="fibrosis" target="pulmonologist" weight="0.1603199988603592" />
+      <edge id="924" source="money" target="level" weight="0.15168878436088562" />
+      <edge id="925" source="money" target="u" weight="0.14835137128829956" />
+      <edge id="926" source="money" target="surgery" weight="0.14787223935127258" />
+      <edge id="927" source="money" target="emphysema" weight="0.1475493460893631" />
+      <edge id="928" source="response" target="greed" weight="0.13401800394058228" />
+      <edge id="929" source="response" target="follow" weight="0.12613070011138916" />
+      <edge id="930" source="response" target="answer" weight="0.1236400455236435" />
+      <edge id="931" source="response" target="emphysema" weight="0.1214434877038002" />
+      <edge id="932" source="response" target="hear" weight="0.11970948427915573" />
+      <edge id="933" source="fda" target="mark" weight="0.23473398387432098" />
+      <edge id="934" source="fda" target="survival" weight="0.197218120098114" />
+      <edge id="935" source="fda" target="tcm" weight="0.19168652594089508" />
+      <edge id="936" source="fda" target="development" weight="0.12417491525411606" />
+      <edge id="937" source="fda" target="asthma" weight="0.1229897141456604" />
+      <edge id="938" source="fda" target="damage" weight="0.15429270267486572" />
+      <edge id="939" source="fda" target="flow" weight="0.1351599395275116" />
+      <edge id="940" source="fda" target="company" weight="0.18707072734832764" />
+      <edge id="941" source="fda" target="home" weight="0.11695127189159393" />
+      <edge id="942" source="fda" target="participate" weight="0.19119876623153687" />
+      <edge id="943" source="love" target="sign" weight="0.1712428778409958" />
+      <edge id="944" source="love" target="approval" weight="0.15794484317302704" />
+      <edge id="945" source="love" target="week" weight="0.14429748058319092" />
+      <edge id="946" source="development" target="emphysema" weight="0.13553005456924438" />
+      <edge id="947" source="development" target="participant" weight="0.13252270221710205" />
+      <edge id="948" source="condition" target="rate" weight="0.3302249312400818" />
+      <edge id="949" source="condition" target="effect" weight="0.2206767201423645" />
+      <edge id="950" source="condition" target="clinic" weight="0.20996102690696716" />
+      <edge id="951" source="condition" target="sign" weight="0.1287788450717926" />
+      <edge id="952" source="condition" target="medicine" weight="0.11672471463680267" />
+      <edge id="953" source="place" target="patient" weight="0.16730451583862305" />
+      <edge id="954" source="place" target="yrs" weight="0.16703355312347412" />
+      <edge id="955" source="place" target="follow" weight="0.16405272483825684" />
+      <edge id="956" source="place" target="function" weight="0.1599489152431488" />
+      <edge id="957" source="place" target="rate" weight="0.15733247995376587" />
+      <edge id="958" source="function" target="damage" weight="0.19782346487045288" />
+      <edge id="959" source="function" target="week" weight="0.16660088300704956" />
+      <edge id="960" source="function" target="page" weight="0.16582754254341125" />
+      <edge id="961" source="function" target="mind" weight="0.13614194095134735" />
+      <edge id="962" source="function" target="bear" weight="0.15736539661884308" />
+      <edge id="963" source="function" target="husband" weight="0.14243200421333313" />
+      <edge id="964" source="surgery" target="treat" weight="0.1776207983493805" />
+      <edge id="965" source="surgery" target="repeat" weight="0.16171997785568237" />
+      <edge id="966" source="surgery" target="cost" weight="0.15770819783210754" />
+      <edge id="967" source="surgery" target="question" weight="0.15527226030826569" />
+      <edge id="968" source="surgery" target="ken" weight="0.1186288595199585" />
+      <edge id="969" source="barnes" target="survival" weight="0.18082520365715027" />
+      <edge id="970" source="barnes" target="clinic" weight="0.16516301035881042" />
+      <edge id="971" source="barnes" target="cost" weight="0.15487098693847656" />
+      <edge id="972" source="barnes" target="follow" weight="0.1465451419353485" />
+      <edge id="973" source="barnes" target="smoke" weight="0.1412818878889084" />
+      <edge id="974" source="barnes" target="end" weight="0.1363542228937149" />
+      <edge id="975" source="greed" target="air" weight="0.15353670716285706" />
+      <edge id="976" source="greed" target="u" weight="0.13595807552337646" />
+      <edge id="977" source="researcher" target="cost" weight="0.18578889966011047" />
+      <edge id="978" source="researcher" target="answer" weight="0.1789948046207428" />
+      <edge id="979" source="researcher" target="company" weight="0.16244718432426453" />
+      <edge id="980" source="researcher" target="page" weight="0.15089276432991028" />
+      <edge id="981" source="researcher" target="bronchiectasis" weight="0.12915556132793427" />
+      <edge id="982" source="researcher" target="home" weight="0.12281900644302368" />
+      <edge id="983" source="researcher" target="email" weight="0.11419640481472015" />
+      <edge id="984" source="medicine" target="follow" weight="0.12583208084106445" />
+      <edge id="985" source="medicine" target="plan" weight="0.10067441314458847" />
+      <edge id="986" source="medicine" target="u" weight="0.09863412380218506" />
+      <edge id="987" source="tcm" target="magdalena" weight="0.17921915650367737" />
+      <edge id="988" source="tcm" target="info" weight="0.15528957545757294" />
+      <edge id="989" source="tcm" target="reason" weight="0.1549873948097229" />
+      <edge id="990" source="tcm" target="symptom" weight="0.15162736177444458" />
+      <edge id="991" source="effect" target="plan" weight="0.21846550703048706" />
+      <edge id="992" source="effect" target="level" weight="0.1555403172969818" />
+      <edge id="993" source="effect" target="patient" weight="0.14484752714633942" />
+      <edge id="994" source="effect" target="info" weight="0.13643336296081543" />
+      <edge id="995" source="level" target="company" weight="0.16485771536827087" />
+      <edge id="996" source="level" target="cost" weight="0.16046299040317535" />
+      <edge id="997" source="level" target="asthma" weight="0.13863180577754974" />
+      <edge id="998" source="level" target="bronchiectasis" weight="0.11894716322422028" />
+      <edge id="999" source="asthma" target="university" weight="0.13619236648082733" />
+      <edge id="1000" source="asthma" target="bone" weight="0.13258866965770721" />
+      <edge id="1001" source="rate" target="north" weight="0.1894722580909729" />
+      <edge id="1002" source="rate" target="ken" weight="0.1765698492527008" />
+      <edge id="1003" source="rate" target="company" weight="0.17559504508972168" />
+      <edge id="1004" source="rate" target="prayer" weight="0.15548017621040344" />
+      <edge id="1005" source="yrs" target="repeat" weight="0.21644118428230286" />
+      <edge id="1006" source="yrs" target="share" weight="0.16990193724632263" />
+      <edge id="1007" source="yrs" target="wonder" weight="0.15763700008392334" />
+      <edge id="1008" source="yrs" target="question" weight="0.15595711767673492" />
+      <edge id="1009" source="smoker" target="email" weight="0.15903107821941376" />
+      <edge id="1010" source="smoker" target="bear" weight="0.14403292536735535" />
+      <edge id="1011" source="smoker" target="pulmonologist" weight="0.11985652148723602" />
+      <edge id="1012" source="smoker" target="medicare" weight="0.11659681051969528" />
+      <edge id="1013" source="therapy" target="share" weight="0.1785494089126587" />
+      <edge id="1014" source="therapy" target="magdalena" weight="0.14811544120311737" />
+      <edge id="1015" source="therapy" target="community" weight="0.1428011804819107" />
+      <edge id="1016" source="therapy" target="prayer" weight="0.1381799578666687" />
+      <edge id="1017" source="therapy" target="offer" weight="0.1268390715122223" />
+      <edge id="1018" source="mind" target="damage" weight="0.1886012703180313" />
+      <edge id="1019" source="mind" target="answer" weight="0.15921024978160858" />
+      <edge id="1020" source="mind" target="tissue" weight="0.1366986781358719" />
+      <edge id="1021" source="mind" target="prayer" weight="0.12799908220767975" />
+      <edge id="1022" source="course" target="carolina" weight="0.20609426498413086" />
+      <edge id="1023" source="course" target="approval" weight="0.1700700968503952" />
+      <edge id="1024" source="u" target="prayer" weight="0.2954130172729492" />
+      <edge id="1025" source="u" target="participant" weight="0.21891231834888458" />
+      <edge id="1026" source="u" target="group" weight="0.19627642631530762" />
+      <edge id="1027" source="u" target="page" weight="0.17913885414600372" />
+      <edge id="1028" source="u" target="university" weight="0.17191000282764435" />
+      <edge id="1029" source="u" target="benefit" weight="0.1714915931224823" />
+      <edge id="1030" source="u" target="clinic" weight="0.12284195423126221" />
+      <edge id="1031" source="u" target="reason" weight="0.16321639716625214" />
+      <edge id="1032" source="bronchiectasis" target="benefit" weight="0.17138929665088654" />
+      <edge id="1033" source="bronchiectasis" target="company" weight="0.158021479845047" />
+      <edge id="1034" source="bronchiectasis" target="community" weight="0.14296993613243103" />
+      <edge id="1035" source="risk" target="share" weight="0.20828959345817566" />
+      <edge id="1036" source="risk" target="community" weight="0.20000994205474854" />
+      <edge id="1037" source="risk" target="cost" weight="0.14956481754779816" />
+      <edge id="1038" source="risk" target="hand" weight="0.14040006697177887" />
+      <edge id="1039" source="emphysema" target="share" weight="0.2110062688589096" />
+      <edge id="1040" source="emphysema" target="patient" weight="0.19836920499801636" />
+      <edge id="1041" source="emphysema" target="sign" weight="0.19179746508598328" />
+      <edge id="1042" source="emphysema" target="hand" weight="0.18316128849983215" />
+      <edge id="1043" source="emphysema" target="treat" weight="0.12292855232954025" />
+      <edge id="1044" source="emphysema" target="trail" weight="0.13345474004745483" />
+      <edge id="1045" source="north" target="share" weight="0.2293338179588318" />
+      <edge id="1046" source="north" target="patient" weight="0.1632053703069687" />
+      <edge id="1047" source="north" target="question" weight="0.16002929210662842" />
+      <edge id="1048" source="north" target="answer" weight="0.1583237498998642" />
+      <edge id="1049" source="north" target="home" weight="0.12371799349784851" />
+      <edge id="1050" source="follow" target="portion" weight="0.1450507491827011" />
+      <edge id="1051" source="follow" target="pulmonologist" weight="0.13493776321411133" />
+      <edge id="1052" source="hand" target="share" weight="0.294613778591156" />
+      <edge id="1053" source="hand" target="prayer" weight="0.1913423389196396" />
+      <edge id="1054" source="hand" target="trail" weight="0.16781696677207947" />
+      <edge id="1055" source="hand" target="damage" weight="0.15963900089263916" />
+      <edge id="1056" source="hand" target="husband" weight="0.14366042613983154" />
+      <edge id="1057" source="sign" target="approval" weight="0.25672101974487305" />
+      <edge id="1058" source="sign" target="week" weight="0.20781448483467102" />
+      <edge id="1059" source="info" target="participate" weight="0.19827410578727722" />
+      <edge id="1060" source="info" target="medicare" weight="0.14748476445674896" />
+      <edge id="1061" source="info" target="answer" weight="0.131254643201828" />
+      <edge id="1062" source="info" target="offer" weight="0.12159919738769531" />
+      <edge id="1063" source="bear" target="group" weight="0.1786007583141327" />
+      <edge id="1064" source="bear" target="survival" weight="0.15330667793750763" />
+      <edge id="1065" source="bear" target="case" weight="0.14636141061782837" />
+      <edge id="1066" source="bear" target="patient" weight="0.13676100969314575" />
+      <edge id="1067" source="bear" target="flow" weight="0.1303718090057373" />
+      <edge id="1068" source="week" target="company" weight="0.24172435700893402" />
+      <edge id="1069" source="week" target="page" weight="0.20355619490146637" />
+      <edge id="1070" source="week" target="approval" weight="0.19074465334415436" />
+      <edge id="1071" source="week" target="treat" weight="0.14392249286174774" />
+      <edge id="1072" source="week" target="volunteer" weight="0.08880452811717987" />
+      <edge id="1073" source="week" target="repeat" weight="0.1588539481163025" />
+      <edge id="1074" source="week" target="reason" weight="0.1736849695444107" />
+      <edge id="1075" source="week" target="symptom" weight="0.179315984249115" />
+      <edge id="1076" source="week" target="bone" weight="0.1608678698539734" />
+      <edge id="1077" source="reduction" target="participate" weight="0.22939015924930573" />
+      <edge id="1078" source="reduction" target="tissue" weight="0.1569991111755371" />
+      <edge id="1079" source="reduction" target="flow" weight="0.1465916931629181" />
+      <edge id="1080" source="reduction" target="email" weight="0.13037222623825073" />
+      <edge id="1081" source="damage" target="reason" weight="0.17046408355236053" />
+      <edge id="1082" source="damage" target="mark" weight="0.16799983382225037" />
+      <edge id="1083" source="damage" target="wonder" weight="0.1580062061548233" />
+      <edge id="1084" source="damage" target="ken" weight="0.13332445919513702" />
+      <edge id="1085" source="magdalena" target="share" weight="0.24246475100517273" />
+      <edge id="1086" source="magdalena" target="page" weight="0.16595704853534698" />
+      <edge id="1087" source="magdalena" target="hear" weight="0.13694807887077332" />
+      <edge id="1088" source="approval" target="case" weight="0.19914332032203674" />
+      <edge id="1089" source="approval" target="participate" weight="0.17003566026687622" />
+      <edge id="1090" source="approval" target="offer" weight="0.16973818838596344" />
+      <edge id="1091" source="approval" target="survival" weight="0.16007347404956818" />
+      <edge id="1092" source="flow" target="tissue" weight="0.16164502501487732" />
+      <edge id="1093" source="flow" target="benefit" weight="0.14692384004592896" />
+      <edge id="1094" source="flow" target="mark" weight="0.13222810626029968" />
+      <edge id="1095" source="air" target="smoke" weight="0.1773396134376526" />
+      <edge id="1096" source="air" target="company" weight="0.15692366659641266" />
+      <edge id="1097" source="air" target="case" weight="0.14673760533332825" />
+      <edge id="1098" source="air" target="participate" weight="0.14021962881088257" />
+      <edge id="1099" source="husband" target="share" weight="0.14173369109630585" />
+      <edge id="1100" source="group" target="end" weight="0.16315431892871857" />
+      <edge id="1101" source="group" target="trail" weight="0.15710397064685822" />
+      <edge id="1102" source="group" target="answer" weight="0.1527886986732483" />
+      <edge id="1103" source="group" target="ken" weight="0.1384754180908203" />
+      <edge id="1104" source="offer" target="survival" weight="0.11893996596336365" />
+      <edge id="1105" source="treat" target="symptom" weight="0.1470128893852234" />
+      <edge id="1106" source="treat" target="pulmonologist" weight="0.13247917592525482" />
+      <edge id="1107" source="answer" target="trail" weight="0.22578278183937073" />
+      <edge id="1108" source="answer" target="page" weight="0.16319800913333893" />
+      <edge id="1109" source="answer" target="reason" weight="0.16121628880500793" />
+      <edge id="1110" source="question" target="pulmonologist" weight="0.15918603539466858" />
+      <edge id="1111" source="question" target="community" weight="0.15784616768360138" />
+      <edge id="1112" source="question" target="prayer" weight="0.14569754898548126" />
+      <edge id="1113" source="question" target="medicare" weight="0.14294761419296265" />
+      <edge id="1114" source="benefit" target="bone" weight="0.17103031277656555" />
+      <edge id="1115" source="benefit" target="share" weight="0.14871299266815186" />
+      <edge id="1116" source="benefit" target="mark" weight="0.14732468128204346" />
+      <edge id="1117" source="hear" target="page" weight="0.18156270682811737" />
+      <edge id="1118" source="hear" target="prayer" weight="0.1396656036376953" />
+      <edge id="1119" source="company" target="case" weight="0.19353514909744263" />
+      <edge id="1120" source="company" target="pulmonologist" weight="0.1555282473564148" />
+      <edge id="1121" source="company" target="cost" weight="0.16789516806602478" />
+      <edge id="1122" source="company" target="reason" weight="0.1621933877468109" />
+      <edge id="1123" source="company" target="survival" weight="0.14994630217552185" />
+      <edge id="1124" source="prayer" target="share" weight="0.17221444845199585" />
+      <edge id="1125" source="prayer" target="participant" weight="0.16317087411880493" />
+      <edge id="1126" source="prayer" target="bone" weight="0.15225107967853546" />
+      <edge id="1127" source="wonder" target="carolina" weight="0.1616637259721756" />
+      <edge id="1128" source="wonder" target="medicare" weight="0.14156126976013184" />
+      <edge id="1129" source="medicare" target="case" weight="0.14844602346420288" />
+      <edge id="1130" source="medicare" target="email" weight="0.14095208048820496" />
+      <edge id="1131" source="medicare" target="trail" weight="0.1272667944431305" />
+      <edge id="1132" source="medicare" target="patient" weight="0.12624198198318481" />
+      <edge id="1133" source="plan" target="page" weight="0.14239510893821716" />
+      <edge id="1134" source="plan" target="home" weight="0.12283547222614288" />
+      <edge id="1135" source="smoke" target="symptom" weight="0.20515598356723785" />
+      <edge id="1136" source="ken" target="tissue" weight="0.129957377910614" />
+      <edge id="1137" source="share" target="community" weight="0.21578353643417358" />
+      <edge id="1138" source="share" target="portion" weight="0.14386171102523804" />
+      <edge id="1139" source="trail" target="tissue" weight="0.16557151079177856" />
+      <edge id="1140" source="trail" target="cost" weight="0.12940864264965057" />
+      <edge id="1141" source="dollar" target="university" weight="0.2315051257610321" />
+      <edge id="1142" source="dollar" target="community" weight="0.1772792637348175" />
+      <edge id="1143" source="dollar" target="participate" weight="0.16490253806114197" />
+      <edge id="1144" source="home" target="repeat" weight="0.138082355260849" />
+      <edge id="1145" source="community" target="cost" weight="0.2343754917383194" />
+      <edge id="1146" source="community" target="portion" weight="0.13212311267852783" />
+      <edge id="1147" source="mark" target="participant" weight="0.21317294239997864" />
+      <edge id="1148" source="cost" target="portion" weight="0.13533557951450348" />
+      <edge id="1149" source="participate" target="symptom" weight="0.17975059151649475" />
+      <edge id="1150" source="reason" target="page" weight="0.19634228944778442" />
+      <edge id="1151" source="page" target="participant" weight="0.21735715866088867" />
+      <edge id="1152" source="page" target="portion" weight="0.14244672656059265" />
+      <edge id="1153" source="participant" target="portion" weight="0.19577357172966003" />
+    </edges>
+  </graph>
+</gexf>
