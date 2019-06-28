@@ -1,16 +1,17 @@
 #%%
 #
-import numpy as np
 import pickle
 from gensim.models import word2vec
 
 #%%
 with open('sentences_all_article.pickle','rb')as fp:
     sentences = pickle.load(fp)
-print(sentences)
+print(sentences[:10])
 #%%select only the nouns
+import spacy
 import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
+sentences = [['site', 'copd'], ['dwell', 'pulmonary', 'fibrosis']]
 
 #%%
 # selects the words with specific pos
@@ -39,7 +40,7 @@ with open('noun_sentences.pickle','wb+')as fp:
     pickle.dump(noun_string_sentences,fp)
 #%%
 # gives the most similar words from copd
-model = word2vec.Word2Vec(sentences, size=200)
+model = word2vec.Word2Vec(sentences, size=200, min_count=1)
 #print(sentences)
 #print(model.wv.vocab )
 print(model.wv.vocab["copd"].count)
@@ -90,16 +91,17 @@ print(nx.info(graph))
 nx.write_gexf(graph,'article_vocab.gexf')
 
 #%%
+#import numpy as np
 with open('sentences_all_comments.pickle','rb')as fp:
     sentences = pickle.load(fp)
-#print(sentences)
-sentences = np.asarray(set(sentences))
+print(sentences)
+#sentences = np.asarray(set(sentences))
 
 #%%
-graph = build_similarity_graph(sentences= sentences)
-print(nx.info(graph))
+graph_comments = build_weighted_graph(sentences= sentences)
+print(nx.info(graph_comments))
 #%%
-nx.write_gexf(graph,'comments_vocab.gexf')
+nx.write_gexf(graph_comments,'comments_vocab.gexf')
 
 #%%
 with open('noun_sentences.pickle','rb')as fp:
