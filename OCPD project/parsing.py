@@ -112,8 +112,6 @@ def list_sentences_comments(dic_links=dic_links):
         comments = [sent.string.strip() for sent in tocken.sents]
         all_comments += comments
 
-    print(all_comments)
-#    commment_sentences = [spacy_tokenizer(sentence) for sentence in comments]
     return all_comments
 comment_sentences = list_sentences_comments()
 print(comment_sentences)
@@ -124,6 +122,16 @@ print(comment_sentences)
 list_sentences_comments = comment_sentences
 with open('list_sentences_comments.pickle','wb+')as fp:
     pickle.dump(list_sentences_comments,fp)
+
+#%%
+# Tockenize the sentences
+commment_sentences = [spacy_tokenizer(sentence) for sentence in list_sentences_comments]
+print(commment_sentences[:10])
+#%%
+#Save all comment sentences in a list
+
+with open('sentences_all_comments.pickle','wb+')as fp:
+    pickle.dump(commment_sentences,fp)
 
 
 #%%
