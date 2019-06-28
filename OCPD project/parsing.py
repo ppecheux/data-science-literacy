@@ -192,5 +192,7 @@ print(age)
 import matplotlib.pyplot as plt
 
 #%%
-plt.hist(age,label='age in years')
+hist = plt.hist(age,label='age in years')
+plt.legend(hist,'age')
+plt.show()
 #%%
